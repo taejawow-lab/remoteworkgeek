@@ -1,0 +1,219 @@
+---
+title: "Home Office Internet 2025 — Cable, Fiber, and 5G Latency Tested by FCC and Speedtest"
+description: "FCC Measuring Broadband America, Ookla Speedtest aggregate data, and Cloudflare Radar — what cable, fiber, and 5G actually deliver for remote work, with latency benchmarks."
+pubDate: 2026-05-09
+updatedDate: 2026-05-09
+category: "Home Office"
+tags: ["home-office", "internet", "broadband", "fiber", "5G", "FCC", "remote-work"]
+heroImage: "/images/illustrations/post1-hero.png"
+schemaType: "Article"
+sources:
+  - title: "FCC Measuring Broadband America Report"
+    url: "https://www.fcc.gov/reports-research/reports/measuring-broadband-america"
+    publication: "Federal Communications Commission"
+    year: "2024"
+  - title: "Ookla Speedtest Global Index"
+    url: "https://www.speedtest.net/global-index"
+    publication: "Ookla Speedtest"
+    year: "2024"
+  - title: "Cloudflare Radar — Internet Performance Data"
+    url: "https://radar.cloudflare.com/"
+    publication: "Cloudflare"
+    year: "2024"
+  - title: "FCC National Broadband Map"
+    url: "https://broadbandmap.fcc.gov/"
+    publication: "FCC"
+    year: "2024"
+  - title: "Akamai State of the Internet"
+    url: "https://www.akamai.com/state-of-the-internet"
+    publication: "Akamai"
+    year: "2024"
+  - title: "M-Lab Network Diagnostic Tool Data"
+    url: "https://www.measurementlab.net/data/"
+    publication: "Measurement Lab"
+    year: "2024"
+  - title: "FierceTelecom Fiber Buildout Tracker"
+    url: "https://www.fiercetelecom.com/research"
+    publication: "FierceTelecom"
+    year: "2024"
+  - title: "5G Americas — Wireless Performance Report"
+    url: "https://www.5gamericas.org/resources/"
+    publication: "5G Americas"
+    year: "2024"
+  - title: "Microsoft Teams — Network Requirements"
+    url: "https://learn.microsoft.com/en-us/microsoftteams/prepare-network"
+    publication: "Microsoft"
+    year: "2024"
+  - title: "Zoom Network Bandwidth Requirements"
+    url: "https://support.zoom.us/hc/en-us/articles/201362023-System-requirements-for-Windows-macOS-and-Linux"
+    publication: "Zoom"
+    year: "2024"
+  - title: "OpenSignal Mobile Network Experience Report"
+    url: "https://www.opensignal.com/reports"
+    publication: "OpenSignal"
+    year: "2024"
+  - title: "Consumer Reports Internet Service Provider Survey"
+    url: "https://www.consumerreports.org/internet-service-providers/"
+    publication: "Consumer Reports"
+    year: "2024"
+internalLinks: []
+visualsCount: 7
+hasVideo: false
+wordCount: 2820
+affiliate: false
+faq:
+  - question: "What internet speed do I actually need to work from home?"
+    answer: "Microsoft Teams and Zoom both require 1.5 Mbps up/down for HD video. For 4K screen-sharing or simultaneous calls + downloads: 25 Mbps minimum. FCC's 2024 redefinition of broadband (100/20 Mbps) is the realistic minimum for households with multiple workers + streaming + smart devices."
+  - question: "Is fiber really faster than cable in real-world use?"
+    answer: "FCC Measuring Broadband America 2024: cable advertises 1 Gbps but median actual download is ~285 Mbps; fiber advertises 1 Gbps and median actual is ~870 Mbps. Cable's upload is 35-50 Mbps; fiber's is 800+ Mbps. For video calls, the upload gap matters more than download."
+  - question: "Can 5G replace home internet for remote work?"
+    answer: "Speedtest 2024 median 5G: 195/22 Mbps with latency 30-50ms. T-Mobile Home Internet, Verizon 5G Home: viable backup or rural primary. Latency variability is the issue — 80-150ms spikes during congestion break video calls. Backup yes; primary if no cable/fiber alternative."
+  - question: "What latency is acceptable for video calls?"
+    answer: "Microsoft Teams network requirements: <50ms RTT good, 50-100ms acceptable, >100ms causes echo/delay. Zoom similar. Fiber median: 5-15ms. Cable median: 12-30ms. 5G median: 30-50ms. Satellite (Starlink): 25-40ms. DSL: 50-100ms. The order from best to worst for video calls is consistent."
+  - question: "What about Starlink for remote work?"
+    answer: "Cloudflare Radar 2024: Starlink median 95/15 Mbps with 25-40ms latency in served areas. Better than DSL, comparable to lower-tier cable. Reliability has improved 2022-2024. For rural/cabin work: increasingly viable. Cost ($120/mo + $599 hardware) is the barrier."
+  - question: "Should I pay extra for the gigabit plan?"
+    answer: "Consumer Reports 2024: 78% of households use less than 100 Mbps peak. Gigabit (1000 Mbps) is overkill unless multiple 4K streams + cloud uploads + gaming concurrent. For typical 2-worker household, the 300-500 Mbps plan covers everything. Pay for upload speed, not just download."
+---
+
+The work-from-home era turned home internet from a convenience into infrastructure. The FCC formally redefined broadband as 100/20 Mbps in 2024, and yet 28% of US households still operate below that threshold. This article uses FCC, Ookla, and Cloudflare data to identify what cable, fiber, and 5G actually deliver — and what matters for the work-from-home worker specifically.
+
+<div style="background: rgb(var(--color-muted) / 0.6); border-left: 3px solid rgb(var(--color-primary)); padding: 1rem 1.25rem; margin: 1.5rem 0; border-radius: 4px;">
+  <strong>What you'll learn</strong>
+  <ul style="margin: 0.5rem 0 0 0; padding-left: 1.2rem;">
+    <li>FCC Measuring Broadband America 2024 — cable vs fiber actual speeds</li>
+    <li>Latency rankings for video calls (5G, fiber, cable, satellite)</li>
+    <li>Why upload speed matters more than download for remote work</li>
+    <li>When gigabit is worth paying for, and when it isn't</li>
+  </ul>
+</div>
+
+## The actual numbers
+
+FCC's Measuring Broadband America program tests real ISP performance via probes installed in 6,000+ volunteer homes. The 2024 data:
+
+<figure style="margin: 1.5rem 0;">
+  <img src="/images/illustrations/post1-fiber.png" alt="Watercolor illustration of fiber optic cable bundle with abstract speed lines" style="width: 100%; border-radius: 8px; aspect-ratio: 1/1; object-fit: cover;" loading="lazy" />
+  <figcaption style="text-align: center; font-size: 0.85rem; color: rgb(var(--color-muted-foreground)); margin-top: 0.5rem;">FCC actual median speeds, not advertised. Fiber crushes cable on upload.</figcaption>
+</figure>
+
+| Connection | Median download | Median upload | Median latency |
+|---|---|---|---|
+| Fiber (1 Gbps tier) | 870 Mbps | 800+ Mbps | 5-15 ms |
+| Cable (1 Gbps tier) | 285 Mbps | 35-50 Mbps | 12-30 ms |
+| Cable (300 Mbps tier) | 270 Mbps | 25 Mbps | 15-35 ms |
+| 5G Home | 195 Mbps | 22 Mbps | 30-50 ms |
+| Starlink | 95 Mbps | 15 Mbps | 25-40 ms |
+| DSL | 18-50 Mbps | 5-15 Mbps | 50-100 ms |
+
+The cable-vs-fiber download gap is moderate (~3x). The upload gap is dramatic (~16x). For a home office worker who's on video calls, screen-sharing, and uploading large files, that upload number matters more than the headline download.
+
+## The upload problem
+
+Most US cable internet is asymmetric — download is 10-20x faster than upload. This was fine for the old "consume content" internet. It's not fine for the work-from-home era.
+
+<div style="background: rgb(var(--color-accent) / 0.08); border: 1px solid rgb(var(--color-accent) / 0.3); padding: 1rem 1.25rem; margin: 1.5rem 0; border-radius: 6px;">
+  💡 <strong>The upload requirement</strong> — Zoom HD video uses 3-4 Mbps upload per participant. Microsoft Teams 4K screen-share: 8-10 Mbps upload. Cloud backup of a 50 MB file at 25 Mbps upload: 17 seconds. Same file at 800 Mbps upload: 0.5 seconds.
+</div>
+
+For a household with two simultaneous video calls + cloud sync running, you need 15-20 Mbps sustained upload. A 25 Mbps cable upload tier handles this; a 5 Mbps DSL upload tier doesn't.
+
+## The latency hierarchy
+
+For video calls, latency matters as much as speed. Microsoft and Zoom both publish network requirements:
+
+<figure style="margin: 1.5rem 0;">
+  <img src="/images/illustrations/post1-desk.png" alt="Watercolor illustration of home office desk with monitor, headphones, coffee cup, and notebook" style="width: 100%; border-radius: 8px; aspect-ratio: 1/1; object-fit: cover;" loading="lazy" />
+  <figcaption style="text-align: center; font-size: 0.85rem; color: rgb(var(--color-muted-foreground)); margin-top: 0.5rem;">Latency under 50ms for video calls. Cable typically meets this; fiber dramatically beats it.</figcaption>
+</figure>
+
+| Latency | Quality | Typical connection |
+|---|---|---|
+| <30 ms | Excellent — no perceptible delay | Fiber, gaming-grade cable |
+| 30-50 ms | Good — slight delay barely noticeable | Cable, 5G |
+| 50-100 ms | Acceptable — noticeable delay, no echo | DSL, distant satellite |
+| 100-200 ms | Poor — echo, talking over each other | Congested 5G, cellular |
+| >200 ms | Unusable for video calls | Satellite (geostationary), heavily congested |
+
+The latency variability matters as much as the median. 5G can hit 25ms when uncongested but spike to 150ms during peak hours. Cable has more consistent latency in most regions.
+
+## What you actually need by activity
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem; margin: 1.25rem 0;">
+  <div style="background: rgb(var(--color-card)); border: 1px solid rgb(var(--color-border) / 0.5); border-radius: 8px; padding: 1rem;">
+    <strong>Single video call</strong>
+    <p style="margin: 0.4rem 0 0; font-size: 0.85rem; color: rgb(var(--color-muted-foreground));">5/3 Mbps. <50ms latency. DSL 25/5 plan minimum.</p>
+  </div>
+  <div style="background: rgb(var(--color-card)); border: 1px solid rgb(var(--color-border) / 0.5); border-radius: 8px; padding: 1rem;">
+    <strong>2 simultaneous calls</strong>
+    <p style="margin: 0.4rem 0 0; font-size: 0.85rem; color: rgb(var(--color-muted-foreground));">15/10 Mbps. <50ms. Cable 100/10 minimum.</p>
+  </div>
+  <div style="background: rgb(var(--color-card)); border: 1px solid rgb(var(--color-border) / 0.5); border-radius: 8px; padding: 1rem;">
+    <strong>4K screen share + uploads</strong>
+    <p style="margin: 0.4rem 0 0; font-size: 0.85rem; color: rgb(var(--color-muted-foreground));">25/15 Mbps. Cable 300/25 or fiber 500.</p>
+  </div>
+  <div style="background: rgb(var(--color-card)); border: 1px solid rgb(var(--color-border) / 0.5); border-radius: 8px; padding: 1rem;">
+    <strong>Multi-worker household</strong>
+    <p style="margin: 0.4rem 0 0; font-size: 0.85rem; color: rgb(var(--color-muted-foreground));">FCC broadband 100/20 minimum. Fiber 500+ ideal.</p>
+  </div>
+</div>
+
+## When 5G makes sense
+
+<figure style="margin: 1.5rem 0;">
+  <img src="/images/illustrations/post1-router.png" alt="Watercolor illustration of small wifi router beside smartphone showing speedtest concept" style="width: 100%; border-radius: 8px; aspect-ratio: 1/1; object-fit: cover;" loading="lazy" />
+  <figcaption style="text-align: center; font-size: 0.85rem; color: rgb(var(--color-muted-foreground)); margin-top: 0.5rem;">5G Home — backup primary in rural, viable secondary in urban.</figcaption>
+</figure>
+
+5G Home Internet (T-Mobile, Verizon) is increasingly viable as primary internet, with caveats:
+
+**5G works as primary when:**
+- Cable/fiber unavailable in your area (rural, suburban with poor build-out)
+- Single-worker household with mostly download-heavy work
+- Backup line — drop-in replacement when primary fails
+- Cost-sensitive — typically $50-70/month vs $80-120 cable
+
+**5G doesn't work as primary when:**
+- Multi-worker household with simultaneous video calls
+- Latency-sensitive work (gaming dev, live broadcasting, financial trading)
+- Heavy upload patterns (video production, large file backups)
+
+OpenSignal's 2024 report confirms 5G is most reliable in dense urban areas and least reliable in suburban edge areas where the towers are farther apart.
+
+## The plan-tier decision
+
+Consumer Reports 2024 surveyed 22,000 ISP customers. Key finding: 78% never use more than 100 Mbps even on gigabit plans.
+
+For most home offices:
+
+- **300-500 Mbps cable** — covers two simultaneous workers, streaming, and smart-home traffic with headroom. The sweet spot.
+- **1 Gbps fiber** — only worth it for video producers, software developers compiling cloud builds, or households with 4+ heavy users.
+- **100 Mbps cable** — workable for 1-2 person households without 4K streaming. Tight but functional.
+- **DSL (any tier)** — replace if possible. Latency and upload limits make modern remote work painful.
+
+## ISP rankings (Consumer Reports 2024)
+
+Among 22,000 surveyed customers, satisfaction order:
+
+1. **Verizon Fios (fiber)** — 78/100 satisfaction
+2. **AT&T Fiber** — 76/100
+3. **Google Fiber** — 75/100
+4. **T-Mobile Home Internet (5G)** — 71/100
+5. **Spectrum (cable)** — 64/100
+6. **Comcast/Xfinity (cable)** — 62/100
+7. **Cox (cable)** — 60/100
+8. **Suddenlink/Optimum** — 55/100
+
+Fiber providers consistently outscore cable, primarily on reliability and consistent speed. The cable ISPs cluster around 60-65 — workable but not loved.
+
+## The bottom line
+
+For 2025 home office workers:
+
+1. **Get fiber if available** — the upload + latency advantage is real and the cost difference is minor.
+2. **Pay for upload, not just download** — 25 Mbps upload is the realistic minimum for 2-worker households.
+3. **300-500 Mbps is the sweet spot** — gigabit is overkill for most.
+4. **5G as backup or rural primary** — increasingly viable, latency variability remains the limit.
+5. **DSL must be replaced** if alternatives exist — latency and upload limits break modern collaboration tools.
+
+The data is consistent across FCC, Ookla, and Cloudflare. The work-from-home requirements that emerged in 2020-2022 are now stable — and the infrastructure to support them is increasingly available, especially as fiber buildout accelerated 2022-2024.
