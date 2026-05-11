@@ -80,6 +80,9 @@ faq:
 draft: false
 ---
 
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
+
 The home office chair is the single most-used piece of equipment in remote work. An 8-hour daily user spends ~2,000 hours per year in their chair — more than they spend in their car, and with health impacts that compound. Cornell Ergonomics Lab, OSHA, and Wirecutter all publish detailed selection criteria. This article walks through what features actually matter, what the testing data shows, and how to think about the price/value spectrum.
 
 The TL;DR: six adjustments are essential (seat height, seat depth, lumbar, armrest height, recline, tilt tension). Premium chairs ($1,000+) amortize over 10+ years; mid-tier ($400-700) delivers 80% of the value for 4-6 hour daily users; budget ($200-300) typically misses 1-2 of the essential adjustments. Match your purchase to your actual hours of use.
@@ -343,3 +346,57 @@ For most home office users:
 Match the chair to actual hours of daily use. Underspending on chair when you spend 2,000+ hours/year in it is poor amortization. Overspending on a chair you sit in 1-2 hours daily is poor allocation.
 
 For complementary home office content, see [home office internet tested](/posts/home-office-internet-tested).
+
+## Ergonomic chair picks across price tiers
+
+Cornell ergonomics data and OSHA guidelines converge on three chair attributes that matter: adjustable lumbar, seat depth, and armrests with 4-way movement. Three chairs cover the entry-level, mid, and premium price points without compromising on those three essentials.
+
+<ProductBox
+  name="Herman Miller Aeron Chair (Remastered, Size B)"
+  priceHint="$1,400-1,700 — premium long-term pick"
+  pros={[
+    "12-year warranty, parts replaceable for the life of the chair",
+    "PostureFit SL lumbar support — single best lumbar in the category",
+    "Pellicle mesh sleeps cooler than any padded chair in 8-hour blocks"
+  ]}
+  cons={[
+    "Premium pricing — typical 2-3 month payback only if WFH full-time",
+    "No headrest — Aeron is designed for forward task work, not lounging"
+  ]}
+  href="https://www.amazon.com/s?k=Herman+Miller+Aeron+chair+remastered+size+B"
+  region="us"
+/>
+
+<ProductBox
+  name="Steelcase Series 1 Ergonomic Chair"
+  priceHint="$430-550 — mid-range with full ergonomic adjustability"
+  pros={[
+    "Live Back technology adjusts to spine curvature dynamically",
+    "4D arms (height, depth, width, pivot) at half the Aeron price",
+    "12-year warranty — same span as Herman Miller"
+  ]}
+  cons={[
+    "Mesh thinner than Aeron — slightly less cooling under heavy use",
+    "Some configurations don't include headrest by default"
+  ]}
+  href="https://www.amazon.com/s?k=Steelcase+Series+1+ergonomic+chair"
+  region="us"
+/>
+
+<ProductBox
+  name="IKEA Markus Chair (Best Sub-$300 Option)"
+  priceHint="$220-280 — strong budget pick"
+  pros={[
+    "10-year IKEA warranty, high-back design with integrated headrest",
+    "Tilt tension adjustment and weight-activated recline",
+    "Most ergonomic pick available at the sub-$300 price point"
+  ]}
+  cons={[
+    "Fixed lumbar position (no manual height adjustment)",
+    "Armrests are fixed height — not adjustable like Aeron / Steelcase"
+  ]}
+  href="https://www.amazon.com/s?k=IKEA+Markus+office+chair"
+  region="us"
+/>
+
+For full-time remote workers, the Aeron pays back in spinal-health terms within 2 years. If you're under $500 budget, the Steelcase Series 1 hits 85% of Aeron's ergonomic benefit at 1/3 the cost.
