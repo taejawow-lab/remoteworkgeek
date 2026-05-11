@@ -80,6 +80,9 @@ faq:
 draft: false
 ---
 
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
+
 Desk lighting is the most-overlooked home office variable. People obsess over chairs and monitors but accept whatever overhead light came with the room. Per Cornell Vision Research and IES standards, typical residential overhead lighting provides only 100-200 lux at the desk surface — well below the 500+ lux threshold for sustained office work. This article walks through what the data says about lux levels, color temperature, glare, and the practical fixes that transform home office lighting.
 
 The TL;DR: aim for 500+ lux at the desk surface during work. Use 4000K color temperature for daytime productivity (or adjustable). Position lights to side of monitor, never behind. A monitor light bar (BenQ Screen Bar) is the highest-impact upgrade for typical home office desks.
@@ -334,3 +337,57 @@ For most home office workers:
 Total budget: $140-220 for meaningful upgrade; $300-400 for premium adjustable circadian-friendly setup.
 
 For complementary home office content, see [ergonomic chair data](/posts/ergonomic-chair-data-cornell-osha) and [monitor size and refresh rate data](/posts/monitor-size-refresh-rate-data).
+
+## Desk lights that hit the research lux targets
+
+Independent illuminance testing puts three products consistently at the top for office-grade lighting (300-500 lux at desk surface) without screen glare or color cast issues.
+
+<ProductBox
+  name="BenQ ScreenBar Plus Monitor Light"
+  priceHint="$120-160 — clips on top of monitor, zero desk footprint"
+  pros={[
+    "Auto-dim based on ambient light sensor",
+    "Asymmetric light pattern aims at desk surface, not screen",
+    "Wired remote for color temp + brightness — no app required"
+  ]}
+  cons={[
+    "Original Plus model uses included puck remote (battery type AAA)",
+    "Fits monitors 1-3 cm thick — measure first"
+  ]}
+  href="https://www.amazon.com/s?k=BenQ+ScreenBar+Plus+monitor+light"
+  region="us"
+/>
+
+<ProductBox
+  name="TaoTronics LED Desk Lamp (TT-DL13 / DL19)"
+  priceHint="$30-60 — value pick with great spec sheet"
+  pros={[
+    "5 brightness levels x 7 color temps = wide adjustment range",
+    "USB port for phone charging at the base",
+    "Memory function remembers last setting (rare at this price)"
+  ]}
+  cons={[
+    "Plastic build vs metal premium picks",
+    "1-year warranty (shorter than BenQ)"
+  ]}
+  href="https://www.amazon.com/s?k=TaoTronics+LED+desk+lamp+TT-DL13"
+  region="us"
+/>
+
+<ProductBox
+  name="Philips Hue White Ambiance Smart Bulb (Starter Kit)"
+  priceHint="$60-100 — for smart-home integration"
+  pros={[
+    "Tunable white from warm to cool — match circadian-friendly schedule",
+    "Works with HomeKit, Alexa, Google — no separate hub needed for 1-2 bulbs",
+    "Routines automate brightness throughout the workday"
+  ]}
+  cons={[
+    "Per-bulb cost higher than basic LED bulbs",
+    "Requires Hue Bridge for advanced routines (additional purchase)"
+  ]}
+  href="https://www.amazon.com/s?k=Philips+Hue+White+Ambiance+starter+kit"
+  region="us"
+/>
+
+The BenQ ScreenBar Plus is the most space-efficient solution. Pair with a wall-mounted Hue setup if you want full circadian-friendly lighting control across the workday.
