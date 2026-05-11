@@ -80,6 +80,9 @@ faq:
 draft: false
 ---
 
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
+
 The home office monitor market is mature and well-tested. RTINGS, Wirecutter, and Tom's Hardware test extensively, and Cornell Ergonomics Lab publishes research on optimal viewing setup. This article walks through what the data shows — size, resolution, refresh rate, ergonomic placement — and identifies which setups actually fit different home office workflows.
 
 The TL;DR: 27-inch 4K is the sweet spot for most productivity work. Higher refresh rates (120 Hz+) are gaming features, not productivity ones. Dual 27-inch typically beats single 32-inch for office workflows. Ultrawide makes sense for specific multi-pane workflows. Vertical orientation is useful for coding and document review.
@@ -351,3 +354,57 @@ For most home office workers:
 - **Skip**: high refresh rates for office, 1080p resolution for 27-inch+, gaming-focused features
 
 For complementary home office content, see [ergonomic chair data](/posts/ergonomic-chair-data-cornell-osha) and [home office internet tested](/posts/home-office-internet-tested).
+
+## Monitors that match the productivity research
+
+Studies on screen real estate consistently show 27-inch 4K and 34-inch ultrawide as the two strongest setups for focused work. These three monitors anchor each category at proven price-quality intersections:
+
+<ProductBox
+  name="Dell U2723QE UltraSharp 27-inch 4K USB-C Hub Monitor"
+  priceHint="$550-650 — productivity gold standard"
+  pros={[
+    "27-inch 4K (163 ppi) — text sharper than any 1080p / 1440p alternative",
+    "Single USB-C cable handles power + display + ethernet + USB hub",
+    "IPS Black panel — 2000:1 contrast, factory-calibrated Delta E < 2"
+  ]}
+  cons={[
+    "Premium pricing vs basic 27-inch 4K alternatives",
+    "60 Hz refresh — not a gaming monitor (productivity-focused)"
+  ]}
+  href="https://www.amazon.com/s?k=Dell+U2723QE+UltraSharp+27+inch+4K"
+  region="us"
+/>
+
+<ProductBox
+  name="LG 34WP65C-B 34-inch UltraWide Curved Monitor"
+  priceHint="$320-420 — ultrawide value pick"
+  pros={[
+    "34-inch 3440x1440 — eliminates dual-monitor bezel gap for multitaskers",
+    "1500R curve reduces edge-of-screen distortion",
+    "HDR10, 99% sRGB, height-adjustable stand"
+  ]}
+  cons={[
+    "1440p vertical resolution (not 4K) — fewer rows than 27\" 4K",
+    "No built-in USB-C hub at this price tier"
+  ]}
+  href="https://www.amazon.com/s?k=LG+34WP65C-B+34+inch+ultrawide+curved"
+  region="us"
+/>
+
+<ProductBox
+  name="ASUS ProArt Display PA279CV 27-inch 4K"
+  priceHint="$420-520 — color-accurate alternative"
+  pros={[
+    "Factory-calibrated 100% sRGB / 100% Rec. 709",
+    "USB-C with 90W power delivery, KVM switch built in",
+    "Calman-verified — color-critical work without buying calibration tools"
+  ]}
+  cons={[
+    "Slightly bulkier bezel than Dell U-series",
+    "Color preset menus take a moment to navigate"
+  ]}
+  href="https://www.amazon.com/s?k=ASUS+ProArt+PA279CV+27+inch+4K"
+  region="us"
+/>
+
+For most knowledge workers, the Dell U2723QE is the highest-ROI single purchase. Switch to the LG ultrawide only if you ran a dual-monitor setup and the bezel gap drove you crazy.
