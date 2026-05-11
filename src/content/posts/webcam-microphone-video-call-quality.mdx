@@ -80,6 +80,9 @@ faq:
 draft: false
 ---
 
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
+
 The home office video call setup has matured into a clear hierarchy of impact: audio quality dominates perceived professionalism, lighting transforms how you appear on camera, the webcam itself is third in priority. This article walks through Wirecutter, PCMag, and RTINGS testing data on webcams, microphones, and lighting — and identifies what to upgrade first within typical budgets.
 
 The TL;DR: spend the first $80 on a microphone (Samson Q2U or FIFINE K669B). Spend the next $50-100 on lighting (desk lamp or ring light). Spend the next $80-150 on a webcam (Logitech Brio 300 or similar). Total: $200-300 transforms typical laptop-default video calls.
@@ -370,3 +373,57 @@ Priority order for typical home office video call upgrades:
 Total transformation budget: $150-250.
 
 For complementary home office content, see [desk lighting research](/posts/desk-lighting-lux-research) and [home office internet tested](/posts/home-office-internet-tested).
+
+## Video-call gear worth upgrading from the built-in laptop hardware
+
+Built-in laptop webcams + omnidirectional mics are the single biggest weakness in most remote work setups. Three upgrades materially improve perceived professionalism in 1:1 and team calls:
+
+<ProductBox
+  name="Logitech Brio 4K Pro Webcam"
+  priceHint="$170-220 — top end for video calls"
+  pros={[
+    "4K UHD at 30fps, 1080p at 60fps — the only 4K webcam under $250 worth buying",
+    "HDR adapts to backlit windows and harsh office lighting automatically",
+    "Pairs with Logi Tune software for granular controls"
+  ]}
+  cons={[
+    "Premium pricing — many calls don't capture 4K",
+    "USB-A connector by default (use included USB-C adapter for newer laptops)"
+  ]}
+  href="https://www.amazon.com/s?k=Logitech+Brio+4K+Pro+webcam"
+  region="us"
+/>
+
+<ProductBox
+  name="Shure MV7 USB/XLR Podcast Microphone"
+  priceHint="$240-280 — dual-mode mic for serious upgrade"
+  pros={[
+    "USB + XLR — plug into laptop now, upgrade to audio interface later",
+    "Cardioid pattern rejects keyboard noise and room echo",
+    "Built-in EQ presets via ShurePlus MOTIV app"
+  ]}
+  cons={[
+    "Requires boom arm + shock mount for best results (not included)",
+    "Pricey vs entry-level USB mics like Blue Yeti"
+  ]}
+  href="https://www.amazon.com/s?k=Shure+MV7+microphone+USB+XLR"
+  region="us"
+/>
+
+<ProductBox
+  name="Elgato Key Light Air (Pair for Even Coverage)"
+  priceHint="$130 each — eliminates harsh shadows on calls"
+  pros={[
+    "1400 lumens, 2900-7000K color temp, app-controlled via WiFi",
+    "Edge-lit panel reduces glare on glasses-wearers",
+    "Stream Deck integration for one-button on/off during calls"
+  ]}
+  cons={[
+    "Need two for symmetrical lighting (3-point setup is best)",
+    "Premium price vs basic ring lights"
+  ]}
+  href="https://www.amazon.com/s?k=Elgato+Key+Light+Air"
+  region="us"
+/>
+
+For most home offices, the Brio 4K + MV7 + a single Key Light Air covers the 80/20 of perceived call quality. Add the second Key Light only if you do recorded video content for work, not live calls.
