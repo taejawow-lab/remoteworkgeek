@@ -65,7 +65,7 @@ faq:
     answer: "Yes, all three brands are OS-agnostic — they appear as standard USB keyboards. QMK firmware-level shortcuts (modifier layers, macros) work regardless of the OS. OS-level shortcut differences (Cmd vs Ctrl) can be remapped in the keyboard firmware so the same physical key behavior carries between Mac and PC."
   - question: "What about wireless versions?"
     answer: "Kinesis Advantage 360 Pro has wireless (Bluetooth + dongle) options. Moonlander is wired-only. Ergodox EZ is wired. For shoulder-width split positioning, wireless is convenient but most users find the wired cable between halves acceptable. Battery life on the wireless Kinesis is roughly 2 months between charges."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -89,6 +89,11 @@ This article compares the three brands most associated with the split ergonomic 
 
 ## The ergonomic case for splitting
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post7-keyboard-position.png" alt="Hands resting on a split keyboard with shoulder-width hand position" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 OSHA, CDC, and Cornell's Human Factors and Ergonomics Lab all converge on three keyboard-related risk factors for repetitive strain: ulnar deviation (wrists bent outward toward pinky), pronation (palms facing down), and excessive lateral travel to reach modifier and arrow keys.
 
 Split keyboards address all three. The two halves separate to shoulder width — eliminating ulnar deviation. Tenting tilts each half inward — reducing pronation. Thumb clusters move common modifiers (Ctrl, Alt, Enter, Backspace, Space) to the strongest finger — reducing lateral travel.
@@ -97,6 +102,11 @@ The trade-off is the learning curve. Splitting alone is fast to adapt (1-2 days)
 
 ## Concave wells vs flat ortholinear
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post7-keyboard-wells.png" alt="Kinesis-style concave keyboard with curved keywells from side angle" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The Kinesis Advantage line uses concave keywells — each half of the keyboard curves down so finger reach matches finger length naturally. Index fingers reach a deeper key well; ring and pinky fingers reach a shallower one. The result is less lateral hand movement overall.
 
 Moonlander and Ergodox EZ use flat ortholinear key layouts — keys are in straight columns at a single plane. Each finger still travels columnar (up-down only), but without the natural-curve well that Kinesis provides.
@@ -104,6 +114,11 @@ Moonlander and Ergodox EZ use flat ortholinear key layouts — keys are in strai
 For users with strong RSI symptoms or large hands, Kinesis's concave wells provide the biggest reduction in finger travel. For users prioritizing flexibility (different sitting positions, switching between desks, custom tenting angles), the flat ortholinear designs win on adjustability.
 
 ## Tenting angle
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post7-keyboard-tenting.png" alt="Tented split keyboard with each half tilted inward" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 Most ergonomic keyboards offer some form of tenting — tilting each half so the inner edge sits higher than the outer edge, rotating the wrist toward a neutral position.
 
@@ -116,6 +131,11 @@ Most ergonomic keyboards offer some form of tenting — tilting each half so the
 For users not certain of optimal tenting, the Moonlander or Ergodox adjustable mechanisms allow experimentation. Once dialed in, most users settle on 15-25 degree tenting and rarely change it.
 
 ## QMK firmware and programmability
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post7-keyboard-desk.png" alt="Peaceful home office desk with split keyboard and warm coffee" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 All three brands ship with QMK firmware — an open-source keyboard programming system. QMK supports:
 
