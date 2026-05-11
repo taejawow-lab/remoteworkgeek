@@ -61,7 +61,7 @@ faq:
     answer: "Three controls: distance (3-4 feet behind you), separate light on you (front key light brighter than ambient screen reflection), and tilt the screen slightly off-vertical so reflected light bounces sideways rather than forward. Most modern chroma key software includes a 'spill suppression' setting that further reduces the green color cast on subject edges."
   - question: "What software handles chroma key well in 2026?"
     answer: "OBS Studio is free and has the gold-standard chroma key filter for streaming and recording. Zoom, Teams, and Meet have built-in chroma key when you enable 'I have a green screen' in settings — they handle the basics but have less fine-tuning. For recorded video, NVIDIA Broadcast and Streamyard offer real-time AI-enhanced keying that works well even with imperfect lighting."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -85,6 +85,11 @@ This article focuses on collapsible green screens — the desk-friendly category
 
 ## When a real green screen beats AI virtual backgrounds
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post11-greenscreen-folded.png" alt="Folded portable green screen leaning against a wall" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 Zoom, Microsoft Teams, and Google Meet all ship with AI virtual background detection that runs on the device GPU or CPU. The technology improved substantially between 2020 and 2024 — modern AI segmentation handles standard portrait poses well in even lighting. The remaining limitations show up in edge cases:
 
 - **Hair edges** flicker when the AI loses track of fine strands against the room background. Bright lights behind the subject worsen this.
@@ -96,6 +101,11 @@ For recorded video that will be edited or watched closely, these artifacts read 
 
 ## Lighting the green screen — even light is everything
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post11-greenscreen-webcam.png" alt="Webcam framing a person against a clean green backdrop" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The chroma key filter isolates a single shade of green. The filter has tolerance for slight variations but breaks down on hot spots and shadows. Lighting the green screen evenly is the single most important variable for clean keying.
 
 The professional setup uses two soft lights at 45-degree angles to the screen, positioned to overlap in the middle. The lights should be separate from the front key light on the subject — never the same light source. Inexpensive softbox kits (Neewer 2-pack at $80-120) work well; the goal is broad, soft light without harsh single-point bright zones.
@@ -105,6 +115,11 @@ For desks without space for two screen lights, ambient room lighting can work if
 Hot spots (small bright areas) are the most common chroma key failure. They typically come from a single overhead light or a window reflection on the screen surface. Diffuse, move, or block the offending source before adjusting chroma key settings.
 
 ## Positioning — distance from screen to subject matters
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post11-greenscreen-angle.png" alt="Green screen at slight angle to avoid window glare" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 Stand or sit 3-4 feet in front of the green screen. The distance accomplishes two things:
 
@@ -116,6 +131,11 @@ In small home offices where the desk-to-wall distance is under 4 feet, position 
 Tilt the screen slightly off-vertical — 5-10 degrees forward at the top — to bounce reflected light sideways rather than forward into the camera. This further reduces spill onto the subject.
 
 ## Storage footprint — the collapsible advantage
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/post11-greenscreen-clean.png" alt="Clean home office with folded green screen tucked beside desk" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 The collapsible green screen category solves the storage problem that prevents most home offices from using a real chroma backdrop. The Elgato Green Screen uses a pneumatic spring inside a tube — you press a button and the screen retracts into a 4x8 inch base. Setup takes 10 seconds; teardown takes 10 seconds.
 
