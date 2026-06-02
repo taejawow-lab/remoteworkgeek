@@ -1,0 +1,200 @@
+{
+  "date": "2026-06-02",
+  "batch": "C",
+  "site": "remoteworkgeek",
+  "host": "gti13-direct",
+  "endpoint": "http://192.168.50.29:8188",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, distorted hands, bad anatomy, extra fingers, unsafe animal handling, financial screen, medical procedure, fake warning label, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image"
+  },
+  "site_manifest": {
+    "slug": "remote-work-meeting-recording-privacy-checklist-2026",
+    "title": "Remote Meeting Recording and Notes Privacy Checklist for Distributed Teams",
+    "article": "src/content/posts/remote-work-meeting-recording-privacy-checklist-2026.mdx",
+    "source_validation": [
+      {
+        "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/",
+        "ok": true,
+        "status": 200,
+        "final": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/"
+      },
+      {
+        "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/security/",
+        "ok": false,
+        "error": "<HTTPError 404: 'Not Found'>"
+      },
+      {
+        "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/telework-security-basics",
+        "ok": false,
+        "error": "<HTTPError 404: 'Not Found'>"
+      },
+      {
+        "url": "https://www.cisa.gov/secure-our-world",
+        "ok": false,
+        "error": "<HTTPError 403: 'Forbidden'>"
+      },
+      {
+        "url": "https://www.zoom.com/en/trust/privacy/",
+        "ok": true,
+        "status": 200,
+        "final": "https://www.zoom.com/en/trust/privacy/"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+        "ok": true,
+        "status": 200,
+        "final": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview"
+      },
+      {
+        "url": "https://support.google.com/meet/answer/9852160",
+        "ok": true,
+        "status": 200,
+        "final": "https://support.google.com/meet/answer/9852160"
+      },
+      {
+        "url": "https://www.ftc.gov/business-guidance/privacy-security",
+        "ok": false,
+        "error": "<HTTPError 403: 'Forbidden'>"
+      }
+    ],
+    "assets": [
+      {
+        "file": "public/images/illustrations/rwg-meeting-recording-privacy-2026-hero.png",
+        "filename": "rwg-meeting-recording-privacy-2026-hero.png",
+        "suffix": "hero",
+        "seed": 202606020307,
+        "prompt": "realistic remote team meeting privacy setup with laptop blank screen, headset, notebook closed, no text no logos",
+        "prompt_id": "6b11aeef-346a-46a7-88a2-ae7c9a82ddf7",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_remoteworkgeek_hero_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1232697
+      },
+      {
+        "file": "public/images/illustrations/rwg-meeting-recording-privacy-2026-01.png",
+        "filename": "rwg-meeting-recording-privacy-2026-01.png",
+        "suffix": "01",
+        "seed": 202606020308,
+        "prompt": "realistic home office desk before video call with blank monitor, headset, privacy light, no readable words",
+        "prompt_id": "2b64212d-e9d0-4216-886d-84ef3f2feea7",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_remoteworkgeek_01_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1442065
+      },
+      {
+        "file": "public/images/illustrations/rwg-meeting-recording-privacy-2026-02.png",
+        "filename": "rwg-meeting-recording-privacy-2026-02.png",
+        "suffix": "02",
+        "seed": 202606020309,
+        "prompt": "realistic distributed work notes cleanup scene with closed notebook, locked drawer, blank screen, no text",
+        "prompt_id": "c5dc535a-7acc-45f4-a1dd-009d89f5149a",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_remoteworkgeek_02_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1442603
+      },
+      {
+        "file": "public/images/illustrations/rwg-meeting-recording-privacy-2026-03.png",
+        "filename": "rwg-meeting-recording-privacy-2026-03.png",
+        "suffix": "03",
+        "seed": 202606020310,
+        "prompt": "realistic consent-aware meeting setup with camera cover, headset, blank screen, no logos",
+        "prompt_id": "955534d6-7fcb-4f68-812c-98e6e040f33c",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_remoteworkgeek_03_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1111613
+      },
+      {
+        "file": "public/images/illustrations/rwg-meeting-recording-privacy-2026-04.png",
+        "filename": "rwg-meeting-recording-privacy-2026-04.png",
+        "suffix": "04",
+        "seed": 202606020902,
+        "prompt": "realistic secure meeting file storage concept with closed laptop, locked drawer, headset, plain folders with no labels, no screens visible, no writing no logos",
+        "prompt_id": "2ce9b626-f355-4111-a042-0cdae0ba99ac",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_qa_remoteworkgeek_04_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1547555,
+        "qa_replacement": true
+      },
+      {
+        "file": "public/images/illustrations/rwg-meeting-recording-privacy-2026-05.png",
+        "filename": "rwg-meeting-recording-privacy-2026-05.png",
+        "suffix": "05",
+        "seed": 202606020312,
+        "prompt": "realistic remote worker end-of-meeting checklist represented by blank sticky notes and headset, no writing",
+        "prompt_id": "61018edf-f314-4574-b2e6-1662a3a82f49",
+        "raw_output": {
+          "filename": "hermes_batchc_20260602_remoteworkgeek_05_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "width": 1536,
+        "height": 864,
+        "bytes": 1453527
+      }
+    ],
+    "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260602-remoteworkgeek-contact-sheet.jpg",
+    "visual_qa": "Final contact sheet regenerated after QA replacements; pending final vision inspection.",
+    "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260602-remoteworkgeek-contact-sheet-final.jpg",
+    "published_asset_count": 6
+  },
+  "qa_note": "Final MDX excludes QA-rejected assets; only assets listed here are referenced for publication."
+}
