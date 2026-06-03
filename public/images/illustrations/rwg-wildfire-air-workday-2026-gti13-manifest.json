@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-06-03T04:14:16Z",
+  "site": "remoteworkgeek",
+  "topic": "wildfire smoke indoor air quality remote workday plan",
+  "endpoint": "[REDACTED]",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "endpoint": "[REDACTED]",
+      "host": "gti13",
+      "prompt_id": "0dc75784-a6d0-4923-a747-e98fc971f7b3",
+      "raw_output": {
+        "filename": "hermes_rwg_wildfire_air_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "prompt": "remote worker home office during hazy wildfire smoke day, window closed with slight orange haze outside, laptop desk, portable HEPA air purifier nearby, indoor plant, calm professional setup, ultra realistic editorial photography, premium remote work magazine style, natural light, clean modern home office, practical objects, no readable text, no logos, 16:9 composition, high detail, sharp focus, calm and safe scene",
+      "negative_prompt": "text, letters, words, watermark, logo, brand logo, UI screenshot, people with distorted hands, bad anatomy, extra fingers, extra limbs, face closeup, medical scene, emergency gore, smoke inside room, fire, low quality, blurry, jpeg artifacts, oversaturated, cartoon, illustration",
+      "seed": 202606030501,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.5,
+      "steps": 22,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "filename": "public/images/illustrations/rwg-wildfire-air-workday-2026-hero.png",
+      "bytes": 1747784
+    },
+    {
+      "endpoint": "[REDACTED]",
+      "host": "gti13",
+      "prompt_id": "292ca6a2-1388-457b-b574-6c6f3bebb15a",
+      "raw_output": {
+        "filename": "hermes_rwg_wildfire_air_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "prompt": "close detailed home office desk with compact air purifier beside chair, sealed window in background, weather alert concept on phone screen blurred with no text, clean cable management, ultra realistic editorial photography, premium remote work magazine style, natural light, clean modern home office, practical objects, no readable text, no logos, 16:9 composition, high detail, sharp focus, calm and safe scene",
+      "negative_prompt": "text, letters, words, watermark, logo, brand logo, UI screenshot, people with distorted hands, bad anatomy, extra fingers, extra limbs, face closeup, medical scene, emergency gore, smoke inside room, fire, low quality, blurry, jpeg artifacts, oversaturated, cartoon, illustration",
+      "seed": 202606030502,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.5,
+      "steps": 22,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "filename": "public/images/illustrations/rwg-wildfire-air-workday-2026-01.png",
+      "bytes": 1496124
+    },
+    {
+      "endpoint": "[REDACTED]",
+      "host": "gti13",
+      "prompt_id": "18a35abb-dd52-461c-8360-0658b867a986",
+      "raw_output": {
+        "filename": "hermes_rwg_wildfire_air_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "prompt": "remote work clean room setup in small bedroom office, towel near door gap, purifier centered in room, laptop on small desk, closed curtains, tidy safe indoor air refuge, ultra realistic editorial photography, premium remote work magazine style, natural light, clean modern home office, practical objects, no readable text, no logos, 16:9 composition, high detail, sharp focus, calm and safe scene",
+      "negative_prompt": "text, letters, words, watermark, logo, brand logo, UI screenshot, people with distorted hands, bad anatomy, extra fingers, extra limbs, face closeup, medical scene, emergency gore, smoke inside room, fire, low quality, blurry, jpeg artifacts, oversaturated, cartoon, illustration",
+      "seed": 202606030503,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.5,
+      "steps": 22,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "filename": "public/images/illustrations/rwg-wildfire-air-workday-2026-02.png",
+      "bytes": 1405317
+    },
+    {
+      "endpoint": "[REDACTED]",
+      "host": "gti13",
+      "prompt_id": "3d047284-941f-4027-b4f4-b3a680bbc4ab",
+      "raw_output": {
+        "filename": "hermes_rwg_wildfire_air_00004_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "prompt": "home HVAC filter replacement scene for remote worker, clean pleated air filter held near return vent, laptop and calendar blurred on side, no readable labels, ultra realistic editorial photography, premium remote work magazine style, natural light, clean modern home office, practical objects, no readable text, no logos, 16:9 composition, high detail, sharp focus, calm and safe scene",
+      "negative_prompt": "text, letters, words, watermark, logo, brand logo, UI screenshot, people with distorted hands, bad anatomy, extra fingers, extra limbs, face closeup, medical scene, emergency gore, smoke inside room, fire, low quality, blurry, jpeg artifacts, oversaturated, cartoon, illustration",
+      "seed": 202606030504,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.5,
+      "steps": 22,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "filename": "public/images/illustrations/rwg-wildfire-air-workday-2026-03.png",
+      "bytes": 1672602
+    },
+    {
+      "endpoint": "[REDACTED]",
+      "host": "gti13",
+      "prompt_id": "1440e304-b239-4745-8d50-fdc5f603a5b6",
+      "raw_output": {
+        "filename": "hermes_rwg_wildfire_air_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "prompt": "remote meeting backup plan during poor outdoor air, laptop video call setup, water bottle, notes notebook with blank pages, purifier and closed window, soft daylight, ultra realistic editorial photography, premium remote work magazine style, natural light, clean modern home office, practical objects, no readable text, no logos, 16:9 composition, high detail, sharp focus, calm and safe scene",
+      "negative_prompt": "text, letters, words, watermark, logo, brand logo, UI screenshot, people with distorted hands, bad anatomy, extra fingers, extra limbs, face closeup, medical scene, emergency gore, smoke inside room, fire, low quality, blurry, jpeg artifacts, oversaturated, cartoon, illustration",
+      "seed": 202606030505,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.5,
+      "steps": 22,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "filename": "public/images/illustrations/rwg-wildfire-air-workday-2026-04.png",
+      "bytes": 1430914
+    },
+    {
+      "endpoint": "[REDACTED]",
+      "host": "gti13",
+      "prompt_id": "995ee7ae-65f0-42f1-a52c-f27e4babd0d3",
+      "raw_output": {
+        "filename": "hermes_rwg_wildfire_air_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "prompt": "post smoke recovery home office ventilation scene after clean outdoor air returns, open window with fresh daylight, fan near window, purifier, organized desk, calm reset, ultra realistic editorial photography, premium remote work magazine style, natural light, clean modern home office, practical objects, no readable text, no logos, 16:9 composition, high detail, sharp focus, calm and safe scene",
+      "negative_prompt": "text, letters, words, watermark, logo, brand logo, UI screenshot, people with distorted hands, bad anatomy, extra fingers, extra limbs, face closeup, medical scene, emergency gore, smoke inside room, fire, low quality, blurry, jpeg artifacts, oversaturated, cartoon, illustration",
+      "seed": 202606030506,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.5,
+      "steps": 22,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "filename": "public/images/illustrations/rwg-wildfire-air-workday-2026-05.png",
+      "bytes": 2069957
+    }
+  ]
+}
