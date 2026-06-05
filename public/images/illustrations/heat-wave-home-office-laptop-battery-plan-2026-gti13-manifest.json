@@ -1,0 +1,120 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "heat-wave-home-office-laptop-battery-plan-2026",
+  "generated_at": null,
+  "updated_at": "2026-06-05T04:18:41Z",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "dimensions": null,
+  "workflow": "SDXL RealVisXL minimal ComfyUI txt2img workflow",
+  "assets": [
+    {
+      "site": "remoteworkgeek",
+      "slug": "heat-wave-home-office-laptop-battery-plan-2026",
+      "filename": "rwg-heat-office-battery-20260605-01.png",
+      "file": "public/images/illustrations/rwg-heat-office-battery-20260605-01.png",
+      "alt": "Laptop raised with airflow and shaded window for hot workday",
+      "prompt": "realistic remote work desk with laptop on stand, fan angled safely, curtains partly closed, cable tidy, blank screen, no text, no logos",
+      "seed": 202606050307,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8ffd0b86-1196-4cd6-9db3-20dfc49a934a",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00007_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1394332
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "heat-wave-home-office-laptop-battery-plan-2026",
+      "filename": "rwg-heat-office-battery-20260605-02.png",
+      "file": "public/images/illustrations/rwg-heat-office-battery-20260605-02.png",
+      "alt": "Battery and charger staging for a power-flex remote work block",
+      "prompt": "realistic desk side table with laptop charger, power bank, small UPS-like box without markings, phone blank screen, no text, no logos",
+      "seed": 202606050308,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ef46b989-7af7-444f-ac0c-043a542303de",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00008_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1250510
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "heat-wave-home-office-laptop-battery-plan-2026",
+      "filename": "rwg-heat-office-battery-20260605-03.png",
+      "file": "public/images/illustrations/rwg-heat-office-battery-20260605-03.png",
+      "alt": "Video meeting fallback setup during summer heat",
+      "prompt": "realistic home office meeting fallback setup with headset, laptop fully closed, notebook closed, shaded window, small fan, no screens visible, no readable text, no logos",
+      "seed": 202606050402,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "replacement": true,
+      "prompt_id": "0b052403-e57a-4b17-ad37-c80e85f8bfa1",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00022_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1288385
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "heat-wave-home-office-laptop-battery-plan-2026",
+      "filename": "rwg-heat-office-battery-20260605-04.png",
+      "file": "public/images/illustrations/rwg-heat-office-battery-20260605-04.png",
+      "alt": "End of hot workday equipment cool down and shutdown routine",
+      "prompt": "realistic evening desk reset, laptop closed, fan off, cables loosely coiled safely, water glass, no readable text, no logos",
+      "seed": 202606050310,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "94efc0ea-ed96-4622-9aef-226ff27e7499",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00010_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1741770
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "heat-wave-home-office-laptop-battery-plan-2026",
+      "filename": "rwg-heat-office-battery-20260605-hero.png",
+      "file": "public/images/illustrations/rwg-heat-office-battery-20260605-hero.png",
+      "alt": "Heat wave remote work desk with cooling and power backup plan",
+      "prompt": "premium realistic editorial photo of a home office during summer heat, laptop blank screen, small fan, closed blinds, water bottle, compact battery station with no labels, no readable text, no logos",
+      "seed": 202606050306,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b37db780-1680-472e-9a87-82d13e68ee60",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260605_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1514162
+    }
+  ],
+  "visual_qa": "Final contact sheet regenerated after replacing rejected logo/screen/wire/finance clutter images and an extra security screen image; all 20 published PNGs retained at 1536x864 with no readable text-heavy content.",
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260605-gti13-contact-sheet-final.jpg"
+}
