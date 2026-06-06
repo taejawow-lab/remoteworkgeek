@@ -1,0 +1,127 @@
+{
+  "batch": "C",
+  "date": "2026-06-06",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, UI screenshot, readable screen text, fake app screen, fake warning label, QR code, barcode, credential, medical label, prescription label, financial statement text, distorted interface, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock image, handwriting, calendar grid, unsafe animal handling, exposed wiring"
+  },
+  "endpoint": "[REDACTED_INTERNAL_GTI13_ENDPOINT]",
+  "slug": "portable-monitor-ergonomics-remote-work-travel-setup-2026",
+  "site": "remoteworkgeek",
+  "visual_qa": "Initial contact sheet inspected; petwellhub hero and smartcashflow hero/support image were regenerated; final accepted published set contains 20 GTI13 raster PNGs, 5 per site.",
+  "assets": [
+    {
+      "site": "remoteworkgeek",
+      "slug": "portable-monitor-ergonomics-remote-work-travel-setup-2026",
+      "filename": "rwg-portable-monitor-20260606-hero.png",
+      "file": "public/images/illustrations/rwg-portable-monitor-20260606-hero.png",
+      "alt": "Portable monitor remote work setup with ergonomic travel gear",
+      "prompt": "premium realistic editorial photo of laptop and portable monitor on compact stand, blank screens, external keyboard, neutral hotel desk, no readable text, no logos",
+      "seed": 202606060306,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b828c0fc-9f16-44c4-ac70-e2f2f113fa87",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1325471
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "portable-monitor-ergonomics-remote-work-travel-setup-2026",
+      "filename": "rwg-portable-monitor-20260606-01.png",
+      "file": "public/images/illustrations/rwg-portable-monitor-20260606-01.png",
+      "alt": "Eye level portable monitor alignment on a small desk",
+      "prompt": "realistic side view of travel desk with monitor raised to eye level, laptop closed slightly, blank screens, no words, no logos",
+      "seed": 202606060307,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b891de66-2fb2-400a-824d-ca1939d850cc",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00007_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1272098
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "portable-monitor-ergonomics-remote-work-travel-setup-2026",
+      "filename": "rwg-portable-monitor-20260606-02.png",
+      "file": "public/images/illustrations/rwg-portable-monitor-20260606-02.png",
+      "alt": "Cable tidy and power safe portable monitor workstation",
+      "prompt": "realistic close desk scene with USB-C cable routed neatly, compact charger without labels, blank monitor, no text",
+      "seed": 202606060308,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b9bae13f-6317-4320-95f6-2729c83a61d1",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00008_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1399962
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "portable-monitor-ergonomics-remote-work-travel-setup-2026",
+      "filename": "rwg-portable-monitor-20260606-03.png",
+      "file": "public/images/illustrations/rwg-portable-monitor-20260606-03.png",
+      "alt": "Video call friendly portable monitor layout without fake UI",
+      "prompt": "realistic remote worker desk with webcam covered, headset, blank screen rectangles only, soft lamp, no readable UI, no logos",
+      "seed": 202606060309,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d40a2dcc-5fdf-4154-80f4-483d0957ef90",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00009_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1213692
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "portable-monitor-ergonomics-remote-work-travel-setup-2026",
+      "filename": "rwg-portable-monitor-20260606-04.png",
+      "file": "public/images/illustrations/rwg-portable-monitor-20260606-04.png",
+      "alt": "Packable remote work kit for coworking or hotel desk",
+      "prompt": "realistic flat lay of portable monitor sleeve, keyboard, mouse, stand, cable pouch, all unbranded, no text",
+      "seed": 202606060310,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "184814ec-f655-4129-8870-164edbdea27a",
+      "comfy_output": {
+        "filename": "hermes_batch_c_20260606_00010_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1996843
+    }
+  ]
+}
