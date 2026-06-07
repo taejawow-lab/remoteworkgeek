@@ -1,0 +1,15 @@
+---
+export interface Props { class?: string; live?: boolean; }
+const { class: className = 'h-8 w-8', live = false } = Astro.props;
+---
+<svg class:list={[className, live && 'mark-live']} viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <line x1="24" y1="24" x2="12" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="24" x2="36" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="24" x2="12" y2="36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="24" x2="36" y2="36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="24" cy="24" r="5" fill="var(--accent)"/>
+  <circle cx="12" cy="12" r="3.6" fill="currentColor"/>
+  <circle cx="36" cy="12" r="3.6" fill="currentColor"/>
+  <circle cx="12" cy="36" r="3.6" fill="currentColor"/>
+  <circle cx="36" cy="36" r="3.6" fill="var(--accent)"/>
+</svg>

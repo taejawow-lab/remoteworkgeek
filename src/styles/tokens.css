@@ -1,35 +1,29 @@
-/* remoteworkgeek.org design tokens — auto-generated 2026-05-08T03:44:26.242Z */
+/* RemoteWorkGeek editorial design tokens */
 :root {
-  --color-background: 247 247 247;
-  --color-foreground: 26 32 44;
-  --color-primary: 74 85 104;
+  --color-background: 245 244 240;
+  --color-foreground: 22 21 28;
+  --color-primary: 91 75 219;
   --color-primary-foreground: 255 255 255;
-  --color-accent: 123 166 138;
+  --color-accent: 91 75 219;
   --color-accent-foreground: 255 255 255;
-  --color-muted: 242 242 242;
-  --color-muted-foreground: 66 72 84;
-  --color-card: 247 247 247;
-  --color-card-foreground: 26 32 44;
-  --color-border: 106 112 124;
-  --color-input: 101 107 119;
-  --color-ring: 74 85 104;
-  --font-heading: "IBM Plex Sans", system-ui, sans-serif;
-  --font-body: "IBM Plex Sans", system-ui, sans-serif;
-  --font-display: "Fraunces", serif;
-  --font-mono: "JetBrains Mono", "Fira Code", monospace;
-  --radius: 6px;
+  --color-muted: 239 238 233;
+  --color-muted-foreground: 111 109 120;
+  --color-card: 255 255 254;
+  --color-card-foreground: 22 21 28;
+  --color-border: 227 225 218;
+  --color-input: 227 225 218;
+  --color-ring: 91 75 219;
+  --paper:#f5f4f0; --surface:#fffffe; --surface-2:#efeee9; --ink:#16151c; --ink-soft:#3b3a44; --muted:#6f6d78; --faint:#9b99a3; --hairline:#e3e1da; --hairline-2:#d6d3ca;
+  --accent:#5b4bdb; --accent-press:#4a3bc4; --accent-soft:#8b7cff; --accent-tint:#ecebfb; --accent-line:#d7d2f7;
+  --ok:#1f8a5b; --warn:#b4791e; --maxw:1200px; --gutter:clamp(20px,5vw,64px); --radius:14px; --radius-sm:9px;
+  --serif:'Newsreader', Georgia, 'Times New Roman', serif; --sans:'Hanken Grotesk', system-ui, -apple-system, sans-serif; --mono:'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+  --font-heading:var(--serif); --font-body:var(--sans); --font-display:var(--serif); --font-mono:var(--mono);
+  --shadow-sm:0 1px 2px rgba(22,21,28,.05),0 1px 1px rgba(22,21,28,.04); --shadow-md:0 4px 14px rgba(22,21,28,.07),0 1px 3px rgba(22,21,28,.05); --shadow-lg:0 24px 60px rgba(22,21,28,.12),0 4px 14px rgba(22,21,28,.06);
 }
 [data-theme='dark'] {
-  --color-background: 10 15 26;
-  --color-foreground: 232 234 237;
-  --color-primary: 45 55 72;
-  --color-primary-foreground: 255 255 255;
-  --color-accent: 123 166 138;
-  --color-accent-foreground: 255 255 255;
-  --color-muted: 18 23 34;
-  --color-muted-foreground: 202 204 207;
-  --color-card: 15 20 31;
-  --color-card-foreground: 232 234 237;
-  --color-border: 172 174 177;
-  --color-input: 167 169 172;
+  --color-background:16 15 22; --color-foreground:236 235 243; --color-primary:154 140 255; --color-primary-foreground:20 18 31; --color-accent:154 140 255; --color-accent-foreground:20 18 31; --color-muted:31 29 42; --color-muted-foreground:151 148 168; --color-card:23 22 31; --color-card-foreground:236 235 243; --color-border:55 53 67; --color-input:55 53 67; --color-ring:154 140 255;
+  --paper:#100f16; --surface:#17161f; --surface-2:#1f1d2a; --ink:#ecebf3; --ink-soft:#c7c4d6; --muted:#9794a8; --faint:#6a6878; --hairline:rgba(255,255,255,.085); --hairline-2:rgba(255,255,255,.14);
+  --accent:#9a8cff; --accent-press:#b0a4ff; --accent-soft:#8475e6; --accent-tint:rgba(154,140,255,.14); --accent-line:rgba(154,140,255,.28); --ok:#4cc38a; --warn:#e0b252; --shadow-sm:0 1px 2px rgba(0,0,0,.4); --shadow-md:0 6px 20px rgba(0,0,0,.45); --shadow-lg:0 30px 70px rgba(0,0,0,.6),0 6px 18px rgba(0,0,0,.4);
 }
+[data-cat='home-office']{--cat:#b96a35}[data-cat='remote-work-setup'],[data-cat='setup']{--cat:#3577a0}[data-cat='remote-work-operations'],[data-cat='operations']{--cat:#5a49c9}[data-cat='remote-work-security'],[data-cat='security']{--cat:#3f8559}
+[data-theme='dark'] [data-cat='home-office']{--cat:#e0a06a}[data-theme='dark'] [data-cat='remote-work-setup'],[data-theme='dark'] [data-cat='setup']{--cat:#7db8dd}[data-theme='dark'] [data-cat='remote-work-operations'],[data-theme='dark'] [data-cat='operations']{--cat:#aa9dff}[data-theme='dark'] [data-cat='remote-work-security'],[data-theme='dark'] [data-cat='security']{--cat:#74c690}
