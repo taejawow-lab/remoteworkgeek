@@ -1,0 +1,139 @@
+{
+  "date": "2026-06-07",
+  "batch": "C",
+  "host": "gti13-direct",
+  "endpoint": "http://192.168.50.29:8188",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "final_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260607-final2-contact-sheet.jpg",
+  "visual_qa": "Initial contact sheet rejected 6 images for UI/text/topic mismatch; those files were regenerated and final contact sheet written.",
+  "site": "remoteworkgeek",
+  "assets": [
+    {
+      "site": "remoteworkgeek",
+      "slug": "asynchronous-handoff-time-zone-collaboration-plan-2026",
+      "file": "public/images/illustrations/rwg-async-handoff-20260607-hero.png",
+      "filename": "rwg-async-handoff-20260607-hero.png",
+      "alt": "Remote team async handoff desk",
+      "prompt": "realistic remote team desk with abstract world map shapes blurred laptop dark screen no text no logos",
+      "seed": 202606070706,
+      "prompt_id": "aee607ce-a121-4ba8-8e2f-2d451b7cb0c8",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1345896,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "asynchronous-handoff-time-zone-collaboration-plan-2026",
+      "file": "public/images/illustrations/rwg-async-handoff-20260607-01.png",
+      "filename": "rwg-async-handoff-20260607-01.png",
+      "alt": "Blank handoff workspace",
+      "prompt": "realistic asynchronous handoff workspace with blank sticky notes and closed notebook no writing",
+      "seed": 202606070707,
+      "prompt_id": "d82613f8-3ac0-46ed-9875-2a8bb410dbec",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1502786,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_00007_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "asynchronous-handoff-time-zone-collaboration-plan-2026",
+      "file": "public/images/illustrations/rwg-async-handoff-20260607-02.png",
+      "filename": "rwg-async-handoff-20260607-02.png",
+      "alt": "Focus setup without video call UI",
+      "prompt": "quiet focus setup: closed laptop and blank external monitor, headphones on desk, no people on screen, no video call interface, no text",
+      "seed": 202606071001,
+      "prompt_id": "52231a0b-a747-49ed-8731-a3cbf956e8f4",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1178294,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regen_reason": "visual QA rejected prior image for UI/readable text/topic mismatch"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "asynchronous-handoff-time-zone-collaboration-plan-2026",
+      "file": "public/images/illustrations/rwg-async-handoff-20260607-03.png",
+      "filename": "rwg-async-handoff-20260607-03.png",
+      "alt": "Timezone planning without numbers",
+      "prompt": "realistic time zone planning table with plain colored blocks no numbers no calendar text",
+      "seed": 202606070709,
+      "prompt_id": "8f1be187-04a5-4c32-aa93-8e1cd225bdf6",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1198261,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_00009_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "asynchronous-handoff-time-zone-collaboration-plan-2026",
+      "file": "public/images/illustrations/rwg-async-handoff-20260607-04.png",
+      "filename": "rwg-async-handoff-20260607-04.png",
+      "alt": "End of day handoff preparation",
+      "prompt": "realistic calm home office at end of day preparing handoff blank screen no writing no logos",
+      "seed": 202606070710,
+      "prompt_id": "673a534a-5e94-4e07-b7e1-1dd703a9c261",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1500965,
+      "raw_output": {
+        "filename": "hermes_batch_c_20260607_00010_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ]
+}
