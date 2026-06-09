@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-09",
+  "site": "remoteworkgeek",
+  "slug": "focus-block-recovery-ritual-remote-work-meeting-heavy-days-2026",
+  "host": "gti13",
+  "endpoint_redacted": "direct ComfyUI endpoint verified by gate",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, handwriting, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, medication label text, financial statement text, login screen, forms, spreadsheets, calculator numbers, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin",
+    "steps": 26,
+    "cfg": 5.4,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "assets": [
+    {
+      "filename": "rwg-focus-recovery-20260609-hero.png",
+      "path": "public/images/illustrations/rwg-focus-recovery-20260609-hero.png",
+      "seed": 202606090310,
+      "prompt": "remote worker closing blank video meeting screen and preparing calm focus block desk no readable text no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.4,
+      "steps": 26,
+      "prompt_id": "b72236b3-d473-47b8-a9ae-78bf5d6c8b60",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_remoteworkgeek_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1329041,
+      "status": "ok"
+    },
+    {
+      "filename": "rwg-focus-recovery-20260609-01.png",
+      "path": "public/images/illustrations/rwg-focus-recovery-20260609-01.png",
+      "seed": 202606090311,
+      "prompt": "meeting notes triage desk with blank sticky notes closed laptop and coffee no writing no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.4,
+      "steps": 26,
+      "prompt_id": "66c1fd00-3520-455d-87f7-b55b46b9c24b",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_remoteworkgeek_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1592499,
+      "status": "ok"
+    },
+    {
+      "filename": "rwg-focus-recovery-20260609-02.png",
+      "path": "public/images/illustrations/rwg-focus-recovery-20260609-02.png",
+      "seed": 202606090312,
+      "prompt": "quiet home office with headphones timer turned away plant and blank laptop screen no UI text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.4,
+      "steps": 26,
+      "prompt_id": "b1c03ffc-da6b-43ba-8113-f04072d802cd",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_remoteworkgeek_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1425604,
+      "status": "ok"
+    },
+    {
+      "filename": "rwg-focus-recovery-20260609-03.png",
+      "path": "public/images/illustrations/rwg-focus-recovery-20260609-03.png",
+      "seed": 202606090313,
+      "prompt": "two coworkers reviewing blank working agreement cards on desk no readable text no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.4,
+      "steps": 26,
+      "prompt_id": "a6a87ada-32a5-4fb0-976d-92e55efbd4ec",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_remoteworkgeek_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1419837,
+      "status": "ok"
+    },
+    {
+      "filename": "rwg-focus-recovery-20260609-04.png",
+      "path": "public/images/illustrations/rwg-focus-recovery-20260609-04.png",
+      "seed": 202606090314,
+      "prompt": "end of day remote work shutdown routine with notebook closed laptop blank screen soft lamp no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint_redacted": "direct ComfyUI endpoint verified by gti13_gate",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.4,
+      "steps": 26,
+      "prompt_id": "5345f2c9-b7af-4954-adc0-cc580d45aada",
+      "comfy_output": {
+        "filename": "hermes_c_20260609_remoteworkgeek_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1434899,
+      "status": "ok"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/remoteworkgeek/reports/batch-c-20260609-remoteworkgeek-contact-sheet.jpg",
+  "visual_qa": "passed by generated contact sheet review gate if parent confirms no visible text/UI/safety defects"
+}
