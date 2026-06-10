@@ -1,0 +1,93 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "home-office-privacy-screen-coworking-travel-plan-2026",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI redacted in final",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "date": "2026-06-10",
+  "assets": [
+    {
+      "filename": "rwg-privacy-screen-20260610-hero.png",
+      "render_url": "/images/illustrations/rwg-privacy-screen-20260610-hero.png",
+      "prompt": "remote worker in coworking space with privacy filter blank laptop screen no readable text",
+      "seed": 202606100400,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "45bfb7c2-9ecd-4bb3-a6c7-444c7b249e6b",
+      "bytes": 1597516,
+      "comfy_output_filename": "rwg-privacy-screen-20260610_00001_.png"
+    },
+    {
+      "filename": "rwg-privacy-screen-20260610-01.png",
+      "render_url": "/images/illustrations/rwg-privacy-screen-20260610-01.png",
+      "prompt": "travel desk at hotel with laptop angled away from doorway blank screen no logos",
+      "seed": 202606100401,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a3ee9731-2079-4c7e-8dcf-e3b3267fd513",
+      "bytes": 1419019,
+      "comfy_output_filename": "rwg-privacy-screen-20260610_00002_.png"
+    },
+    {
+      "filename": "rwg-privacy-screen-20260610-02.png",
+      "render_url": "/images/illustrations/rwg-privacy-screen-20260610-02.png",
+      "prompt": "shared apartment work corner with simple folding privacy divider and blank monitor",
+      "seed": 202606100402,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7605b46e-ef83-4426-893c-6a927195c5c1",
+      "bytes": 1645260,
+      "comfy_output_filename": "rwg-privacy-screen-20260610_00003_.png"
+    },
+    {
+      "filename": "rwg-privacy-screen-20260610-03.png",
+      "render_url": "/images/illustrations/rwg-privacy-screen-20260610-03.png",
+      "prompt": "video call setup with neutral background and blank screen no app interface",
+      "seed": 202606100403,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d7867343-5e5c-4198-b084-bd609510801f",
+      "bytes": 1195346,
+      "comfy_output_filename": "rwg-privacy-screen-20260610_00004_.png"
+    },
+    {
+      "filename": "rwg-privacy-screen-20260610-04.png",
+      "render_url": "/images/illustrations/rwg-privacy-screen-20260610-04.png",
+      "prompt": "coffee shop remote work bag with privacy filter sleeve and unbranded gear no text",
+      "seed": 202606100404,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a0dd6b65-9ee7-495f-89a7-272d55718b82",
+      "bytes": 1673919,
+      "comfy_output_filename": "rwg-privacy-screen-20260610_00005_.png"
+    },
+    {
+      "filename": "rwg-privacy-screen-20260610-05.png",
+      "render_url": "/images/illustrations/rwg-privacy-screen-20260610-05.png",
+      "prompt": "home office document privacy routine with closed notebook blank papers and laptop dark screen",
+      "seed": 202606100405,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b43a6894-aabe-4981-acc1-00dfafe93a15",
+      "bytes": 1270773,
+      "comfy_output_filename": "rwg-privacy-screen-20260610_00006_.png"
+    }
+  ],
+  "negative_prompt": "text words letters numbers watermark logo brand name readable labels screen text fake user interface QR code barcode credentials official forms receipts medical labels financial statements distorted hands deformed anatomy unsafe scene exposed wiring blurry low resolution generic stock art placeholder cartoon"
+}
