@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-06-11T04:14:39Z",
+  "host": "gti13",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 28,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable label, UI screenshot, fake app screen, QR code, barcode, credential, medical label, payment card, bank statement, tax form, receipt text, warning sign, distorted hands, bad anatomy, unsafe scene, exposed wiring, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, child face closeup"
+  },
+  "assets": [
+    {
+      "site": "remoteworkgeek",
+      "slug": "remote-work-noise-control-call-fatigue-hearing-plan-2026",
+      "filename": "rwg-noise-call-fatigue-20260611-hero.png",
+      "path": "public/images/illustrations/rwg-noise-call-fatigue-20260611-hero.png",
+      "prompt": "calm home office noise control setup with headphones on stand blank laptop screen soft curtains no text",
+      "seed": 202606110007,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "263cefe9-08e7-41dc-adf1-b7438165ca59",
+      "comfy_output": {
+        "filename": "rwg-noise-call-fatigue-20260611_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1316766,
+      "status": "ok"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "remote-work-noise-control-call-fatigue-hearing-plan-2026",
+      "filename": "rwg-noise-call-fatigue-20260611-01.png",
+      "path": "public/images/illustrations/rwg-noise-call-fatigue-20260611-01.png",
+      "prompt": "remote worker taking quiet break away from headphones with window light no screens no words",
+      "seed": 202606110008,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3640fa8d-d185-48e7-9f38-3cc63b6a2927",
+      "comfy_output": {
+        "filename": "rwg-noise-call-fatigue-20260611_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1696054,
+      "status": "ok"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "remote-work-noise-control-call-fatigue-hearing-plan-2026",
+      "filename": "rwg-noise-call-fatigue-20260611-02.png",
+      "path": "public/images/illustrations/rwg-noise-call-fatigue-20260611-02.png",
+      "prompt": "desk microphone close to speaker with blank monitor acoustic fabric panel no labels no text",
+      "seed": 202606110009,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "88d419b0-ad38-4b7f-bde8-62f1aabb363e",
+      "comfy_output": {
+        "filename": "rwg-noise-call-fatigue-20260611_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1814685,
+      "status": "ok"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "remote-work-noise-control-call-fatigue-hearing-plan-2026",
+      "filename": "rwg-noise-call-fatigue-20260611-03.png",
+      "path": "public/images/illustrations/rwg-noise-call-fatigue-20260611-03.png",
+      "prompt": "home office rug curtains bookshelf reducing echo professional editorial no readable book spines",
+      "seed": 202606110010,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "15d99fec-78aa-408b-8c07-f6cc3763db2d",
+      "comfy_output": {
+        "filename": "rwg-noise-call-fatigue-20260611_00004_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 2221667,
+      "status": "ok"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "remote-work-noise-control-call-fatigue-hearing-plan-2026",
+      "filename": "rwg-noise-call-fatigue-20260611-04.png",
+      "path": "public/images/illustrations/rwg-noise-call-fatigue-20260611-04.png",
+      "prompt": "meeting planning desk with blank agenda cards headphones and mug no handwriting no logos",
+      "seed": 202606110011,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "559ed133-6ca3-4eb4-961d-9185e0a0cd3f",
+      "comfy_output": {
+        "filename": "rwg-noise-call-fatigue-20260611_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1286099,
+      "status": "ok"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "remote-work-noise-control-call-fatigue-hearing-plan-2026",
+      "filename": "rwg-noise-call-fatigue-20260611-05.png",
+      "path": "public/images/illustrations/rwg-noise-call-fatigue-20260611-05.png",
+      "prompt": "remote work focus zone with door sign turned blank and phone face down no text",
+      "seed": 202606110012,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "20f92d3d-629e-4a54-a5bf-1b0606d00034",
+      "comfy_output": {
+        "filename": "rwg-noise-call-fatigue-20260611_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1304713,
+      "status": "ok"
+    }
+  ],
+  "qa_replacements": [
+    {
+      "site": "remoteworkgeek",
+      "filename": "rwg-noise-call-fatigue-20260611-05.png",
+      "path": "public/images/illustrations/rwg-noise-call-fatigue-20260611-05.png",
+      "prompt": "quiet remote work focus zone with closed door, headphones on desk, phone face down, blank dark laptop screen, no sign, no words, no text, no UI, realistic editorial photo",
+      "seed": 202606119002,
+      "prompt_id": "9e921574-caa5-47df-ba42-c726a2b62ce4",
+      "comfy_output": {
+        "filename": "rwg-noise-call-fatigue-20260611-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1225312,
+      "status": "ok",
+      "reason": "visual QA replacement for text/UI/labels/numbers"
+    }
+  ],
+  "final_contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch_c_20260611_report/batch-c-20260611-contact-sheet-final.jpg"
+}
