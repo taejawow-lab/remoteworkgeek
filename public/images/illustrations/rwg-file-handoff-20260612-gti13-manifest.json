@@ -1,0 +1,153 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-file-naming-handoff-version-control-plan-2026",
+  "generated_at": "2026-06-12T04:19:23Z",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI endpoint redacted in user reports",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermark, signature, UI screenshot, app screen, login screen, QR code, barcode, fake labels, documents with text, receipts, forms, distorted hands, bad anatomy, extra fingers, child face closeup, unsafe scene, low detail, blurry, cartoon, generic stock art, placeholder",
+  "assets": [
+    {
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-hero.png",
+      "seed": 202606120100,
+      "prompt": "remote office desk with organized blank folders, closed laptop, plain color file cards, no text no logos",
+      "prompt_id": "59330310-d6e1-4d99-a0f2-c37e8381d86e",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1538123
+    },
+    {
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-01.png",
+      "seed": 202606120101,
+      "prompt": "async handoff workspace with blank sticky notes, dark laptop screen, simple folder stack, no writing",
+      "prompt_id": "2bcea8a5-b550-483e-be16-7cd56cf74946",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1306046
+    },
+    {
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-02.png",
+      "seed": 202606120102,
+      "prompt": "version history concept shown with layered blank paper sheets and neutral laptop dark screen",
+      "prompt_id": "7e58cf32-8dd8-480b-ab45-7901fd450c47",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1114411
+    },
+    {
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-03.png",
+      "seed": 202606120103,
+      "prompt": "remote teammate preparing clean handoff packet with blank cards and headphones, no UI",
+      "prompt_id": "f79acea7-1fa1-4f67-a248-5a57de6ae161",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1539045
+    },
+    {
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-04.png",
+      "seed": 202606120104,
+      "prompt": "shared drive cleanup scene with plain folders, blank labels, no readable text, no logos",
+      "prompt_id": "ebc8cff2-34a2-468d-99ef-4e8392d308bf",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 2018757
+    },
+    {
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-05.png",
+      "seed": 202606120105,
+      "prompt": "manager reviewing file ownership board made of blank cards, no names no letters",
+      "prompt_id": "af8b5118-9227-4335-bec6-e7c49800d4be",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 26,
+      "cfg": 5.4,
+      "bytes": 1416827
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/rwg-file-handoff-20260612-contact-sheet-final3.jpg",
+  "visual_qa": "final3 contact sheet regenerated after third QA replacements; parent run visually inspected final3 sheet",
+  "qa_replacements": [
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-hero.png",
+      "seed": 202606129003,
+      "prompt": "remote work file organization desk with closed laptop, plain folders, blank colored cards, no logos no screens no text",
+      "prompt_id": "8d0641a7-3b49-4eee-beaa-c7209b4a5534",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "reason": "visual QA replacement"
+    },
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-04.png",
+      "seed": 202606129004,
+      "prompt": "shared drive cleanup metaphor with neatly stacked blank folders on office desk, no vehicles, no crash, no writing no labels",
+      "prompt_id": "f00e738a-2b28-415d-a8d7-bdf24c6c38ef",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "reason": "visual QA replacement"
+    },
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-01.png",
+      "seed": 202606129501,
+      "prompt": "async handoff workspace with both laptops fully closed, blank sticky notes face down, plain folders, pens, no screens no text no logos",
+      "prompt_id": "f1d81f69-ecb0-46af-9389-79a2456fca39",
+      "reason": "second visual QA replacement"
+    },
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-file-handoff-20260612-01.png",
+      "seed": 202606129801,
+      "prompt": "remote file handoff still life with only blank colored folders, sealed envelopes, sticky notes face down, pens on a clean desk, no computers no screens no people no text",
+      "prompt_id": "25b01623-e3f7-4545-be30-8515dfd013f8",
+      "reason": "third visual QA replacement"
+    }
+  ]
+}
