@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-06-13T04:15:51Z",
+  "finalized_at": "2026-06-13T04:26:42Z",
+  "site": "remoteworkgeek",
+  "host": "gti13",
+  "endpoint_redacted": "direct GTI13 ComfyUI endpoint verified by gate",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, fake app interface, QR code, barcode, credentials, financial document text, medical label, prescription label, distorted hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock image, handwriting, calendar grid, fake warning label"
+  },
+  "assets": [
+    {
+      "site": "remoteworkgeek",
+      "slug": "async-decision-log-template-remote-teams-2026",
+      "filename": "rwg-async-decision-log-20260613-hero.png",
+      "git_path": "public/images/illustrations/rwg-async-decision-log-20260613-hero.png",
+      "alt": "Async decision log workspace",
+      "prompt": "editorial still life of corkboard with plain colored sticky notes turned blank, closed binder, pencils, coffee mug, no computer, no laptop, no monitor, no screen, no text, no logos",
+      "seed": 202606139101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "60d2e2d6-7cdd-4157-b182-c5ca0f13e905",
+      "status": "published_candidate_final",
+      "bytes": 1920790,
+      "qa_note": "final2 regenerated to remove screen/UI artifact"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "async-decision-log-template-remote-teams-2026",
+      "filename": "rwg-async-decision-log-20260613-01.png",
+      "git_path": "public/images/illustrations/rwg-async-decision-log-20260613-01.png",
+      "alt": "Remote team decision inputs without meeting overload",
+      "prompt": "realistic distributed work desk with colored blank sticky notes and world map shapes without labels",
+      "seed": 202606130308,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "34ae2b5d-30de-45e7-a870-27798d7ede62",
+      "status": "published_candidate_final",
+      "bytes": 1906937
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "async-decision-log-template-remote-teams-2026",
+      "filename": "rwg-async-decision-log-20260613-02.png",
+      "git_path": "public/images/illustrations/rwg-async-decision-log-20260613-02.png",
+      "alt": "Decision owner review desk",
+      "prompt": "realistic team lead reviewing blank decision cards on clean desk, no readable writing",
+      "seed": 202606130309,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "51706bc7-64c6-4a94-86b6-3a237d3ca735",
+      "status": "published_candidate_final",
+      "bytes": 1308741
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "async-decision-log-template-remote-teams-2026",
+      "filename": "rwg-async-decision-log-20260613-03.png",
+      "git_path": "public/images/illustrations/rwg-async-decision-log-20260613-03.png",
+      "alt": "Moving decisions out of live meetings",
+      "prompt": "remote worker desk after meeting with laptop fully closed, headset, blank paper cards, coffee cup, no screen, no readable text, no people faces",
+      "seed": 202606139002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "fdfde869-64b2-49d4-ade9-ba44952f8278",
+      "status": "published_candidate_final",
+      "bytes": 1337173,
+      "qa_note": "regenerated to remove video-call face/screen"
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "async-decision-log-template-remote-teams-2026",
+      "filename": "rwg-async-decision-log-20260613-04.png",
+      "git_path": "public/images/illustrations/rwg-async-decision-log-20260613-04.png",
+      "alt": "Evidence folder for async decisions",
+      "prompt": "realistic evidence folder for product decision with blank pages and neutral office props",
+      "seed": 202606130311,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "de8955f4-3751-4229-9c98-70de935799d6",
+      "status": "published_candidate_final",
+      "bytes": 1324991
+    },
+    {
+      "site": "remoteworkgeek",
+      "slug": "async-decision-log-template-remote-teams-2026",
+      "filename": "rwg-async-decision-log-20260613-05.png",
+      "git_path": "public/images/illustrations/rwg-async-decision-log-20260613-05.png",
+      "alt": "Decision archive for remote teams",
+      "prompt": "realistic calm home office with decision archive binder no labels no text",
+      "seed": 202606130312,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "16794f2b-fb45-44db-964f-061239483cdb",
+      "status": "published_candidate_final",
+      "bytes": 1414227
+    }
+  ],
+  "visual_qa": "Final contact sheets inspected; rejected screen/form/UI/text-risk assets were regenerated before commit. Published raster count: 6."
+}
