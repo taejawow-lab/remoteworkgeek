@@ -1,0 +1,144 @@
+{
+  "date": "2026-06-15",
+  "site": "remoteworkgeek",
+  "slug": "remote-work-device-inventory-return-checklist-2026",
+  "endpoint_host": "gti13-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/rwg-device-inventory-20260615-hero.png",
+      "render_url": "/images/illustrations/rwg-device-inventory-20260615-hero.png",
+      "seed": 90616000,
+      "prompt_id": "31dcfcc1-8d24-4bd8-8cec-40c11c37f417",
+      "prompt": "remote worker preparing device return kit on clean desk with closed laptop, blank screen phone face down, plain cables, no text no labels",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "rwg-device-inventory-20260615-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-device-inventory-20260615-01.png",
+      "render_url": "/images/illustrations/rwg-device-inventory-20260615-01.png",
+      "seed": 90616001,
+      "prompt_id": "475c8a28-6a34-4fe2-819a-a4defa4c4893",
+      "prompt": "neat inventory table scene with laptop closed, headset, dock, charger, blank sticky notes with no writing, no logos",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "rwg-device-inventory-20260615-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-device-inventory-20260615-02.png",
+      "render_url": "/images/illustrations/rwg-device-inventory-20260615-02.png",
+      "seed": 90616002,
+      "prompt_id": "66fb1f72-ae69-4612-b968-6a0069ca9291",
+      "prompt": "secure packing scene with plain shipping box, foam, laptop sleeve, accessories, blank label with no text",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "rwg-device-inventory-20260615-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-device-inventory-20260615-03.png",
+      "render_url": "/images/illustrations/rwg-device-inventory-20260615-03.png",
+      "seed": 90616003,
+      "prompt_id": "a473adf9-7792-4c68-87d8-721e6cb1d9bf",
+      "prompt": "privacy-safe file handoff workspace with closed laptop, blank notebook, hardware key, no screen UI, no readable text",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "rwg-device-inventory-20260615-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-device-inventory-20260615-04.png",
+      "render_url": "/images/illustrations/rwg-device-inventory-20260615-04.png",
+      "seed": 90616004,
+      "prompt_id": "37de707b-abae-4b5f-b541-dc158a9b9ac7",
+      "prompt": "manager and remote worker video-call metaphor with dark blank laptop screen and packaged device beside desk, no visible faces close up, no text",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "rwg-device-inventory-20260615-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-device-inventory-20260615-05.png",
+      "render_url": "/images/illustrations/rwg-device-inventory-20260615-05.png",
+      "seed": 90616905,
+      "prompt_id": "d1db1e0d-40ad-41f6-b8ab-9d5490e45ac0",
+      "prompt": "remote work device return evidence still life with sealed plain cardboard box, cable pouch, dark phone face down, no paper documents, no labels, no barcodes, no readable text, clean office desk",
+      "negative": "readable text, letters, words, numbers, logos, labels, watermarks, signature, QR code, barcode, fake interface, fake form, calculator, receipt, currency, coins, brand marks, unsafe behavior, distorted objects, bad anatomy, deformed hands, scary, low resolution, blurry, stock photo cliche",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "remote_output": {
+        "filename": "rwg-device-inventory-20260615-05_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": "2026-06-15 visual QA replacement"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/rwg-device-inventory-20260615-contact-sheet.jpg",
+  "visual_qa": "final regenerated contact sheet pending review"
+}
