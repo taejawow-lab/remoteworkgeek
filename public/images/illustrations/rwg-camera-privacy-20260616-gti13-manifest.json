@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-06-16T04:13:57Z",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI on LAN (redacted in final)",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "steps": 26,
+  "cfg": 5.3,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "negative_prompt": "readable text, letters, words, numbers, logo, watermark, brand marks, QR code, barcode, fake UI, app screen, login screen, payment screen, receipt text, labels, handwriting, calendar grid, distorted hands, deformed animals, unsafe handling, low resolution, blurry, cartoon, placeholder, stock art",
+  "slug": "remote-work-camera-background-privacy-checklist-2026",
+  "assets": [
+    {
+      "filename": "rwg-camera-privacy-20260616-hero.png",
+      "render_url": "/images/illustrations/rwg-camera-privacy-20260616-hero.png",
+      "prompt": "remote worker video call desk with laptop blank screen and tidy privacy-safe background wall, no text, no logos",
+      "seed": 202606160500,
+      "status": "ok",
+      "prompt_id": "5e060067-f24c-4839-91c8-0bf04e5a1e04",
+      "file": "public/images/illustrations/rwg-camera-privacy-20260616-hero.png",
+      "bytes": 945408,
+      "comfy_output": {
+        "filename": "rwg-camera-privacy-20260616_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "rwg-camera-privacy-20260616-01.png",
+      "render_url": "/images/illustrations/rwg-camera-privacy-20260616-01.png",
+      "prompt": "home office background audit with family photos turned face down and documents closed in drawer, no readable text",
+      "seed": 202606160501,
+      "status": "ok",
+      "prompt_id": "b403ba10-8f9e-41ed-b8c4-567c8816d293",
+      "file": "public/images/illustrations/rwg-camera-privacy-20260616-01.png",
+      "bytes": 1584753,
+      "comfy_output": {
+        "filename": "rwg-camera-privacy-20260616_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "rwg-camera-privacy-20260616-02.png",
+      "render_url": "/images/illustrations/rwg-camera-privacy-20260616-02.png",
+      "prompt": "webcam privacy cover and neutral lamp beside blank laptop screen, no UI, no labels",
+      "seed": 202606160502,
+      "status": "ok",
+      "prompt_id": "f850d166-c174-444e-96ad-0ed26536ff89",
+      "file": "public/images/illustrations/rwg-camera-privacy-20260616-02.png",
+      "bytes": 956219,
+      "comfy_output": {
+        "filename": "rwg-camera-privacy-20260616_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "rwg-camera-privacy-20260616-03.png",
+      "render_url": "/images/illustrations/rwg-camera-privacy-20260616-03.png",
+      "prompt": "small apartment remote work corner with movable screen divider and closed folders, blank laptop screen no text",
+      "seed": 202606160503,
+      "status": "ok",
+      "prompt_id": "2041bcd3-8bd6-47d3-acfd-6551a64bb30e",
+      "file": "public/images/illustrations/rwg-camera-privacy-20260616-03.png",
+      "bytes": 1255006,
+      "comfy_output": {
+        "filename": "rwg-camera-privacy-20260616_00004_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "rwg-camera-privacy-20260616-04.png",
+      "render_url": "/images/illustrations/rwg-camera-privacy-20260616-04.png",
+      "prompt": "pre-call camera angle test using blank monitor and plain bookshelf without readable spines",
+      "seed": 202606160504,
+      "status": "ok",
+      "prompt_id": "b7046ef9-b649-463b-b60e-dc303e238acd",
+      "file": "public/images/illustrations/rwg-camera-privacy-20260616-04.png",
+      "bytes": 1322938,
+      "comfy_output": {
+        "filename": "rwg-camera-privacy-20260616_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "rwg-camera-privacy-20260616-05.png",
+      "render_url": "/images/illustrations/rwg-camera-privacy-20260616-05.png",
+      "prompt": "travel remote work setup with blank laptop screen facing plain wall and sealed document pouch no text",
+      "seed": 202606160505,
+      "status": "ok",
+      "prompt_id": "12a09ba8-25a9-416c-af5c-99f11e696b65",
+      "file": "public/images/illustrations/rwg-camera-privacy-20260616-05.png",
+      "bytes": 1016505,
+      "comfy_output": {
+        "filename": "rwg-camera-privacy-20260616_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "final_visual_qa": "PASS after contact-sheet inspection; regenerated/replaced any earlier text/form/photo-label concerns before article integration.",
+  "published_asset_count": 6
+}
