@@ -1,0 +1,215 @@
+{
+  "batch": "C 20260617 cron",
+  "date": "2026-06-17",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, fake forms, documents with text, calculator, currency, coins, credit cards, QR code, login form, payment screen, dashboard, calendar grid, handwriting, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, unsafe pet restraint, dog face distress closeup, medical chart, medicine label, router admin UI, smart TV UI, app screen, credentials, public Wi-Fi login page, legal document, tax form, IRS form, exposed wires, unsafe cables"
+  },
+  "site": "remoteworkgeek",
+  "data": {
+    "slug": "coworking-wifi-privacy-checklist-remote-workers-2026",
+    "title": "Coworking Wi-Fi Privacy Checklist for Remote Workers 2026",
+    "post": "src/content/posts/coworking-wifi-privacy-checklist-remote-workers-2026.mdx",
+    "assets": [
+      {
+        "file": "public/images/illustrations/rwg-coworking-wifi-privacy-20260617-hero.png",
+        "filename": "rwg-coworking-wifi-privacy-20260617-hero.png",
+        "prompt": "realistic coworking desk with closed laptop, face down dark phone, privacy screen angle, coffee, blank notebook, no readable text, no logos, no Wi-Fi login screen",
+        "seed": 202606170307,
+        "dimensions": [
+          1536,
+          864
+        ],
+        "prompt_id": "e1fc4de3-1bbb-43f6-b5d1-f44641097f0a",
+        "comfy_output": {
+          "filename": "hermes_batch_c_20260617_remoteworkgeek_hero_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "status": "ok",
+        "width": 1536,
+        "height": 864,
+        "bytes": 1389410,
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 24,
+        "cfg": 5.1,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras"
+      },
+      {
+        "file": "public/images/illustrations/rwg-coworking-wifi-privacy-20260617-01.png",
+        "filename": "rwg-coworking-wifi-privacy-20260617-01.png",
+        "prompt": "realistic coworking table setup with closed laptop and hardware security key, blank cards, no text no logos",
+        "seed": 202606170308,
+        "dimensions": [
+          1536,
+          864
+        ],
+        "prompt_id": "5cdfa4fe-8ae1-4bac-a9ac-c951140bcc7a",
+        "comfy_output": {
+          "filename": "hermes_batch_c_20260617_remoteworkgeek_01_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "status": "ok",
+        "width": 1536,
+        "height": 864,
+        "bytes": 1346644,
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 24,
+        "cfg": 5.1,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras"
+      },
+      {
+        "file": "public/images/illustrations/rwg-coworking-wifi-privacy-20260617-02.png",
+        "filename": "rwg-coworking-wifi-privacy-20260617-02.png",
+        "prompt": "realistic remote worker choosing quiet seat with screen turned away, no visible screen content no faces closeup",
+        "seed": 202606170309,
+        "dimensions": [
+          1536,
+          864
+        ],
+        "prompt_id": "cd37e3e6-7a9c-4e90-ac9a-a0c7f159d9d2",
+        "comfy_output": {
+          "filename": "hermes_batch_c_20260617_remoteworkgeek_02_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "status": "ok",
+        "width": 1536,
+        "height": 864,
+        "bytes": 1376476,
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 24,
+        "cfg": 5.1,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras"
+      },
+      {
+        "file": "public/images/illustrations/rwg-coworking-wifi-privacy-20260617-03.png",
+        "filename": "rwg-coworking-wifi-privacy-20260617-03.png",
+        "prompt": "realistic hotspot fallback kit with face down phone, charging cable neatly managed, blank notebook, no UI no text",
+        "seed": 202606170310,
+        "dimensions": [
+          1536,
+          864
+        ],
+        "prompt_id": "05baecc6-be25-41cc-b25e-7120ba545757",
+        "comfy_output": {
+          "filename": "hermes_batch_c_20260617_remoteworkgeek_03_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "status": "ok",
+        "width": 1536,
+        "height": 864,
+        "bytes": 2054285,
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 24,
+        "cfg": 5.1,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras"
+      },
+      {
+        "file": "public/images/illustrations/rwg-coworking-wifi-privacy-20260617-04.png",
+        "filename": "rwg-coworking-wifi-privacy-20260617-04.png",
+        "prompt": "realistic end-of-day cleanup scene with closed laptop, packed bag, blank paper shred bin, no documents with text",
+        "seed": 202606170311,
+        "dimensions": [
+          1536,
+          864
+        ],
+        "prompt_id": "650e0458-7242-46c2-953a-1060d3b59877",
+        "comfy_output": {
+          "filename": "hermes_batch_c_20260617_remoteworkgeek_04_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "status": "ok",
+        "width": 1536,
+        "height": 864,
+        "bytes": 1824835,
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 24,
+        "cfg": 5.1,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras"
+      },
+      {
+        "file": "public/images/illustrations/rwg-coworking-wifi-privacy-20260617-05.png",
+        "filename": "rwg-coworking-wifi-privacy-20260617-05.png",
+        "prompt": "realistic cybersecurity checklist concept using closed plain folder, small padlock, blank cards, dark closed laptop, no paper forms, no readable text, no logos, no screens",
+        "seed": 202606170802,
+        "dimensions": [
+          1536,
+          864
+        ],
+        "prompt_id": "296980fb-cb74-407d-85ce-e1e5b85ce2ef",
+        "comfy_output": {
+          "filename": "hermes_batch_c_20260617_qa_remoteworkgeek_rwg-coworking-wifi-privacy-20260617-05_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        },
+        "status": "qa_regenerated",
+        "width": 1536,
+        "height": 864,
+        "bytes": 1252927,
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 26,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras"
+      }
+    ],
+    "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260617-remoteworkgeek-contact-sheet.jpg",
+    "contact_sheet_windows": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch_c_20260617_reports/batch-c-20260617-remoteworkgeek-contact-sheet.jpg",
+    "sources": [
+      "https://www.cisa.gov/news-events/news/securing-wireless-networks",
+      "https://www.cisa.gov/secure-our-world",
+      "https://consumer.ftc.gov/articles/how-safely-use-public-wi-fi",
+      "https://csrc.nist.gov/pubs/sp/800/46/r2/final",
+      "https://www.fcc.gov/communications-business-opportunities/cybersecurity-small-business",
+      "https://www.microsoft.com/en-us/security/business/security-101/what-is-remote-work-security",
+      "https://safety.google/security-privacy/",
+      "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+    ],
+    "visual_qa_summary": "Contact sheet generated; requires visual QA before commit.",
+    "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260617-remoteworkgeek-contact-sheet-final.jpg",
+    "contact_sheet_final_windows": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch_c_20260617_reports/batch-c-20260617-remoteworkgeek-contact-sheet-final.jpg"
+  },
+  "visual_qa_summary": "Initial QA rejected one pet outdoor/mud recovery image, one remote-work fake security form, and four finance/tax images with calculator/calendar/coins/tax-form risks. All were regenerated through GTI13 and final contact sheets were written."
+}
