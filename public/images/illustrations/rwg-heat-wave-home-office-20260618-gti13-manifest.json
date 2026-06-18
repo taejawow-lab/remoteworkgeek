@@ -1,0 +1,145 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-heat-wave-home-office-continuity-plan-2026",
+  "title": "Remote Work Heat Wave Home Office Continuity Plan for 2026",
+  "date": "2026-06-18",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-hero.png",
+      "render_url": "/images/illustrations/rwg-heat-wave-home-office-20260618-hero.png",
+      "prompt": "realistic home office prepared for summer heat with fan, water bottle, closed laptop, blank notebook, no text labels",
+      "seed": 202606180100,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3523ba6b-332e-451a-9f76-eec1456f5b3b",
+      "comfy_output": {
+        "filename": "batch_c_20260618_remoteworkgeek_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-01.png",
+      "render_url": "/images/illustrations/rwg-heat-wave-home-office-20260618-01.png",
+      "prompt": "realistic remote worker moving laptop to cooler shaded room with blank screen, curtains closed, no calendar text",
+      "seed": 202606180101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e1a33245-27b0-43ef-889e-3c587a69d5ca",
+      "comfy_output": {
+        "filename": "batch_c_20260618_remoteworkgeek_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-02.png",
+      "render_url": "/images/illustrations/rwg-heat-wave-home-office-20260618-02.png",
+      "prompt": "realistic power outage readiness desk with charged power bank, closed laptop, plain cards, no screens no labels",
+      "seed": 202606180102,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a97ced2a-13c6-4582-b21e-9eaa162c7696",
+      "comfy_output": {
+        "filename": "batch_c_20260618_remoteworkgeek_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-03.png",
+      "render_url": "/images/illustrations/rwg-heat-wave-home-office-20260618-03.png",
+      "prompt": "realistic team planning asynchronous heat-wave schedule with blank sticky notes and closed laptop, no writing",
+      "seed": 202606180103,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b4bfe37f-e4a1-4df7-9f05-276399c059c6",
+      "comfy_output": {
+        "filename": "batch_c_20260618_remoteworkgeek_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-04.png",
+      "render_url": "/images/illustrations/rwg-heat-wave-home-office-20260618-04.png",
+      "prompt": "realistic hydration and break station beside home office chair, plain bottle, no brand labels, no medical claims",
+      "seed": 202606180104,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "07ff72ad-9833-4cde-a350-afa022aeda8b",
+      "comfy_output": {
+        "filename": "batch_c_20260618_remoteworkgeek_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    },
+    {
+      "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-05.png",
+      "render_url": "/images/illustrations/rwg-heat-wave-home-office-20260618-05.png",
+      "prompt": "realistic evening review of home office continuity kit with blank paper and dark phone screen, no readable text",
+      "seed": 202606180105,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f0d0de63-96b4-4116-9bb7-90ce0e20dd6d",
+      "comfy_output": {
+        "filename": "batch_c_20260618_remoteworkgeek_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "host": "gti13"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/rwg-heat-wave-home-office-20260618-contact-sheet.jpg",
+  "visual_qa": "contact_sheet_created_pending_human_or_vision_review"
+}
