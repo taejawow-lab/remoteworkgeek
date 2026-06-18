@@ -76,15 +76,15 @@
     {
       "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-03.png",
       "render_url": "/images/illustrations/rwg-heat-wave-home-office-20260618-03.png",
-      "prompt": "realistic team planning asynchronous heat-wave schedule with blank sticky notes and closed laptop, no writing",
-      "seed": 202606180103,
+      "prompt": "realistic asynchronous heat-wave schedule planning with closed laptop, blank sticky notes face down, blank cards, no screens visible, no readable writing, no calendar grid, no numbers",
+      "seed": 202606189031,
       "dimensions": [
         1536,
         864
       ],
-      "prompt_id": "b4bfe37f-e4a1-4df7-9f05-276399c059c6",
+      "prompt_id": "926db5b9-d9cc-4141-b78b-8f10ddc758f4",
       "comfy_output": {
-        "filename": "batch_c_20260618_remoteworkgeek_03_00001_.png",
+        "filename": "batch_c_20260618_repair_remoteworkgeek_03_00001_.png",
         "subfolder": "",
         "type": "output"
       },
@@ -93,7 +93,8 @@
       "cfg": 5.0,
       "sampler": "dpmpp_2m",
       "scheduler": "karras",
-      "host": "gti13"
+      "host": "gti13",
+      "status": "visual_qa_regenerated"
     },
     {
       "file": "public/images/illustrations/rwg-heat-wave-home-office-20260618-04.png",
@@ -141,5 +142,5 @@
     }
   ],
   "contact_sheet": "public/images/illustrations/rwg-heat-wave-home-office-20260618-contact-sheet.jpg",
-  "visual_qa": "contact_sheet_created_pending_human_or_vision_review"
+  "visual_qa": "final contact sheet manually/vision inspected; regenerated noted assets for screen/currency artifacts"
 }
