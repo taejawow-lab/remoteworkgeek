@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-19",
+  "site": "remoteworkgeek",
+  "slug": "home-office-eye-strain-microbreak-ergonomics-plan-2026",
+  "host": "gti13-direct",
+  "endpoint_redacted": true,
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 26,
+    "cfg": 5.3,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/rwg-eye-microbreak-20260619-hero.png",
+      "seed": 202606193101,
+      "prompt": "home office microbreak setup with closed plain laptop, keyboard without markings, plant, mug, daylight, no monitor front bezel, no logo, no visible brand, no text",
+      "prompt_id": "359eb0f9-97b0-4bd0-a908-a473ddab0fd6",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "raw_output": {
+        "filename": "rwg-eye-microbreak-20260619-hero-final3_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "round": "final3"
+    },
+    {
+      "file": "public/images/illustrations/rwg-eye-microbreak-20260619-01.png",
+      "seed": 202606190101,
+      "prompt": "remote worker looking away from blank laptop toward window during microbreak, no readable screens",
+      "prompt_id": "618d29e7-2643-40b4-98e1-f08aa85c70d4",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "rwg-eye-microbreak-20260619-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-eye-microbreak-20260619-02.png",
+      "seed": 202606190102,
+      "prompt": "hands adjusting monitor height with blank screen and simple ergonomic chair, no labels",
+      "prompt_id": "2b516dad-d57a-456b-9568-94aba048153f",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote": {
+        "filename": "rwg-eye-microbreak-20260619-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-eye-microbreak-20260619-03.png",
+      "seed": 202606191005,
+      "prompt": "home office lighting setup with generic monitor dark blank screen, shaded lamp and curtains, no logos, no text, ergonomic chair",
+      "prompt_id": "19035b01-caab-43be-831b-2e4736f92bbc",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "raw_output": {
+        "filename": "rwg-eye-microbreak-20260619-03-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true
+    },
+    {
+      "file": "public/images/illustrations/rwg-eye-microbreak-20260619-04.png",
+      "seed": 202606193002,
+      "prompt": "microbreak home office still life with closed unbranded laptop, headphones, plant, window light, no logos, no visible screen, no text",
+      "prompt_id": "db3db1ce-1325-4f66-85f3-715918d95ce7",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "raw_output": {
+        "filename": "rwg-eye-microbreak-20260619-04-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "round": "final2"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/rwg-eye-microbreak-20260619-contact-sheet.jpg",
+  "visual_qa": "PASS: final contact sheet reviewed after targeted regenerations; retained 5 topic-accurate 1536x864 GTI13 raster images with no readable text/UI/risky object artifacts.",
+  "regeneration_note": "Replaced QA-risk images with prompts excluding labels, UI, logos, calculators, tape measures, and exposed wiring."
+}
