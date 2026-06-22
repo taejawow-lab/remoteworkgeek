@@ -1,0 +1,98 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-wrist-pain-keyboard-break-ergonomics-plan-2026",
+  "generated_at": "2026-06-22T04:18:11Z",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "workflow": {
+    "width": 1536,
+    "height": 864,
+    "steps": 26,
+    "cfg": 5.4,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, watermark, logo, brand mark, label, readable screen, app UI, login UI, document text, receipt, form, calendar grid, calculator digits, keyboard closeup, QR code, barcode, child face closeup, distorted anatomy, deformed hands, unsafe scene, medical procedure, stock photo cliché, low resolution, blurry"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/rwg-wrist-ergonomics-20260622-hero.png",
+      "seed": 202606221000,
+      "prompt": "home office desk with external keyboard mouse monitor at ergonomic distance, blank dark screen, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "20e37a8c-0bbb-41d1-a930-b329b7bc7034",
+      "comfy_output": {
+        "filename": "rwg-wrist-ergonomics-20260622-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-wrist-ergonomics-20260622-02.png",
+      "seed": 202606221002,
+      "prompt": "adjustable chair and desk setup with neutral wrist posture implied, blank monitor, no brands",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "feaa15ab-8dd8-4c0d-871f-900b6ba2fceb",
+      "comfy_output": {
+        "filename": "rwg-wrist-ergonomics-20260622-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-wrist-ergonomics-20260622-03.png",
+      "seed": 202606221003,
+      "prompt": "plain notebook with blank pages beside keyboard and wrist rest, no readable writing",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "44beaca3-7e71-4efc-95d4-b94dc18c80ac",
+      "comfy_output": {
+        "filename": "rwg-wrist-ergonomics-20260622-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-wrist-ergonomics-20260622-04.png",
+      "seed": 202606221004,
+      "prompt": "calm remote worker stretching shoulders away from desk, face turned away, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1e8a46be-e339-461a-9f08-edd8b5483348",
+      "comfy_output": {
+        "filename": "rwg-wrist-ergonomics-20260622-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/rwg-wrist-ergonomics-20260622-05.png",
+      "seed": 202606221005,
+      "prompt": "organized equipment request still life with closed laptop, blank cards, neutral office props",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5867e506-1f44-4273-ba2e-1d6a09085994",
+      "comfy_output": {
+        "filename": "rwg-wrist-ergonomics-20260622-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/rwg-wrist-ergonomics-20260622-contact-sheet-final.jpg",
+  "visual_qa": "passed_after_excluding_rejected_assets",
+  "visual_qa_notes": "Rejected/excluded: public/images/illustrations/rwg-wrist-ergonomics-20260622-01.png",
+  "contact_sheet_final": "public/images/illustrations/rwg-wrist-ergonomics-20260622-contact-sheet-final.jpg"
+}
