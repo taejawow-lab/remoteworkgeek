@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-06-23T04:15:44Z",
+  "date": "2026-06-23",
+  "batch": "C",
+  "endpoint": "redacted-gti13-direct",
+  "host": "gti13-direct",
+  "gate_reason": "sentinel_unreachable_but_direct_comfyui_ok",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.6,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, letters, words, numbers, logo, watermark, signature, brand marks, readable labels, UI screenshot, app screen, QR code, barcode, distorted hands, bad anatomy, extra fingers, unsafe handling, medical procedure, fake warning label, calendar grid, handwriting, low quality, blurry, cartoon, placeholder, generic stock image, receipt, form, currency, calculator numbers, passport, license plate"
+  },
+  "queue_before": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "system_stats_seen": true,
+  "site": "remoteworkgeek",
+  "slug": "remote-work-client-data-retention-cleanup-handoff-plan-2026",
+  "title": "Remote Work Client Data Retention Cleanup and Handoff Plan for 2026",
+  "article": "src/content/posts/remote-work-client-data-retention-cleanup-handoff-plan-2026.mdx",
+  "source_validation": [
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "url": "https://www.cisa.gov/secure-our-world",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.cisa.gov/secure-our-world",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "url": "https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/telework-security-basics",
+      "ok": false,
+      "status": null,
+      "final": null,
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.nist.gov/privacy-framework",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.nist.gov/privacy-framework",
+      "error": null
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/purview/sensitivity-labels",
+      "ok": true,
+      "status": 200,
+      "final": "https://learn.microsoft.com/en-us/purview/sensitivity-labels",
+      "error": null
+    },
+    {
+      "url": "https://support.google.com/a/topic/7556687",
+      "ok": true,
+      "status": 200,
+      "final": "https://knowledge.workspace.google.com/admin/security/about-dlp?visit_id=639177850078183004-1111967211&rd=1",
+      "error": null
+    },
+    {
+      "url": "https://www.cisa.gov/cyber-hygiene-services",
+      "ok": true,
+      "status": 200,
+      "final": "https://www.cisa.gov/cyber-hygiene-services",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/images/illustrations/rwg-data-retention-20260623-hero.png",
+      "filename": "rwg-data-retention-20260623-hero.png",
+      "suffix": "hero",
+      "seed": 202606230307,
+      "prompt": "remote worker clean desk with closed laptop, blank external drive, plain folders, no text no logos",
+      "prompt_id": "802e4a0d-a477-41b1-b4f2-eb70ea741bb0",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_remoteworkgeek_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1569704
+    },
+    {
+      "file": "public/images/illustrations/rwg-data-retention-20260623-01.png",
+      "filename": "rwg-data-retention-20260623-01.png",
+      "suffix": "01",
+      "seed": 202606230308,
+      "prompt": "client data handoff scene with two blank folders and dark laptop screen, realistic office, no writing",
+      "prompt_id": "4204903a-7619-4536-8a7a-2f0563e4bba8",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_remoteworkgeek_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1225229
+    },
+    {
+      "file": "public/images/illustrations/rwg-data-retention-20260623-02.png",
+      "filename": "rwg-data-retention-20260623-02.png",
+      "suffix": "02",
+      "seed": 202606230309,
+      "prompt": "remote worker organizing local files using blank colored cards, no file names no screen text",
+      "prompt_id": "0c575dea-92f9-4822-92ac-fb4100814147",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_remoteworkgeek_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1647637
+    },
+    {
+      "file": "public/images/illustrations/rwg-data-retention-20260623-03.png",
+      "filename": "rwg-data-retention-20260623-03.png",
+      "suffix": "03",
+      "seed": 202606230310,
+      "prompt": "privacy safe offboarding checklist metaphor with shredded blank paper pieces and sealed envelope, no readable text",
+      "prompt_id": "97a430de-883f-4bed-bb18-9748de47c211",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_remoteworkgeek_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1624933
+    },
+    {
+      "file": "public/images/illustrations/rwg-data-retention-20260623-04.png",
+      "filename": "rwg-data-retention-20260623-04.png",
+      "suffix": "04",
+      "seed": 202606230311,
+      "prompt": "secure transfer planning scene with closed laptop, hardware key, plain cable pouch, no UI",
+      "prompt_id": "197245a1-4d3c-4ef1-aec5-e54ed230dade",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_remoteworkgeek_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1958669
+    },
+    {
+      "file": "public/images/illustrations/rwg-data-retention-20260623-05.png",
+      "filename": "rwg-data-retention-20260623-05.png",
+      "suffix": "05",
+      "seed": 202606230312,
+      "prompt": "final cleanup desk with empty inbox metaphor, blank notebook closed, calm natural light no text",
+      "prompt_id": "b905122b-c176-4be5-84a3-d33c7db19052",
+      "raw_output": {
+        "filename": "hermes_batchc_20260623_remoteworkgeek_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1659799
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-c-20260623-remoteworkgeek-contact-sheet.jpg",
+  "contact_sheet_windows": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch_c_20260623_remoteworkgeek_contact_sheet.jpg",
+  "visual_qa": "pending external visual inspection before commit"
+}
