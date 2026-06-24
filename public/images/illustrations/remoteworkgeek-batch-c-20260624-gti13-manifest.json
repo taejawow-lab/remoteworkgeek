@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-06-24T04:26:56Z",
+  "gate": {
+    "host": "gti13",
+    "time": 1782274546,
+    "available": true,
+    "reason": "ok",
+    "manual_pause": false,
+    "gaming_detected": false,
+    "game_processes": [],
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 4090",
+      "vram_total_mb": 24564,
+      "vram_free_mb": 15378,
+      "utilization_percent": 0
+    },
+    "services": {
+      "comfyui_8188": true,
+      "ollama_11434": true
+    }
+  },
+  "endpoint_host": "gti13",
+  "workflow_checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-guest-network-20260624-1.png",
+      "render_url": "/images/illustrations/rwg-guest-network-20260624-1.png",
+      "seed": 202606240100,
+      "prompt_id": "eae92062-b497-475c-b5fa-3e0cf31e5484",
+      "prompt": "tidy home office with router on shelf, closed laptop, blank phone, soft light, no screens readable",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1186372
+    },
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-guest-network-20260624-2.png",
+      "render_url": "/images/illustrations/rwg-guest-network-20260624-2.png",
+      "seed": 202606240101,
+      "prompt_id": "2c7b2856-6fe1-40f0-8420-bcb635816a2b",
+      "prompt": "family living room with isolated smart home devices and router, abstract connectivity, no text",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1477557
+    },
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-guest-network-20260624-3.png",
+      "render_url": "/images/illustrations/rwg-guest-network-20260624-3.png",
+      "seed": 202606240102,
+      "prompt_id": "bc257d59-59ba-47c9-8ca2-bac3a667ffad",
+      "prompt": "remote worker checking cable and router in calm workspace, laptop closed, no interface",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1319089
+    },
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-guest-network-20260624-4.png",
+      "render_url": "/images/illustrations/rwg-guest-network-20260624-4.png",
+      "seed": 202606240103,
+      "prompt_id": "3428c32a-6fd0-4379-b62a-084acc254857",
+      "prompt": "minimal network segmentation concept with colored ethernet cables and blank cards, no labels",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 931643
+    },
+    {
+      "site": "remoteworkgeek",
+      "file": "public/images/illustrations/rwg-guest-network-20260624-5.png",
+      "render_url": "/images/illustrations/rwg-guest-network-20260624-5.png",
+      "seed": 202606249104,
+      "prompt_id": "15524885-9a05-4ea0-91b4-48ce9f9e0f0c",
+      "prompt": "secure home office guest network concept with router on shelf, closed laptop, face down phone, blank cards, warm editorial photo, no screens, no logos, no readable text",
+      "negative": "text, letters, words, watermark, logo, signature, readable screen, UI screenshot, app interface, fake labels, forms, receipts, currency, QR code, brand mark, distorted anatomy, extra limbs, bad hands, low quality, blurry, oversaturated, cartoon",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13",
+      "bytes": 1353947,
+      "status": "regenerated_after_visual_qa"
+    }
+  ],
+  "visual_qa": "Final contact sheet visually inspected; targeted regenerations removed screen/face/calendar/calculator risks; accepted for publication."
+}
