@@ -1,0 +1,48 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-coworking-day-privacy-checklist-2026",
+  "gate": "passed",
+  "date": "2026-06-26",
+  "assets": [
+    {
+      "url": "/images/illustrations/rem-remote-work-coworking-day-privacy-checklist-2026-gti15-1.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626\\remoteworkgeek\\17536893\\20260626_131415_krea_46094466.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/rem-remote-work-coworking-day-privacy-checklist-2026-gti15-2.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626\\remoteworkgeek\\17536893\\20260626_131451_realvis_46094467.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/rem-remote-work-coworking-day-privacy-checklist-2026-gti15-3.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626\\remoteworkgeek\\17536893\\20260626_131508_juggernaut_46094468.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/rem-remote-work-coworking-day-privacy-checklist-2026-gti15-4.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626\\remoteworkgeek\\34481116\\20260626_131611_juggernaut_2610852.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    },
+    {
+      "url": "/images/illustrations/rem-remote-work-coworking-day-privacy-checklist-2026-gti15-5.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_batch_c_20260626_regen\\remoteworkgeek\\78603080\\20260626_132446_juggernaut_343533883.png",
+      "dimensions": "1536x864",
+      "host": "gti15",
+      "endpoint": "redacted",
+      "qa": "accepted_visual_contact_sheet"
+    }
+  ]
+}
