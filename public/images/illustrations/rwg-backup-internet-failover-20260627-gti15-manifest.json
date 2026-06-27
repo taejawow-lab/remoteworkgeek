@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-27",
+  "site": "remoteworkgeek",
+  "slug": "backup-internet-failover-video-call-plan-2026",
+  "endpoint": "GTI15 direct ComfyUI endpoint (redacted)",
+  "dimensions": "1536x864",
+  "source": "C:/Users/k8plus/gti15_setup/generate_natural_blog_candidates.py",
+  "accepted_images": [
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/remoteworkgeek_03/20260627_131542_krea_2299944265.png",
+      "to": "public/images/illustrations/rwg-backup-internet-failover-20260627-hero.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/remoteworkgeek_03/20260627_131618_realvis_2299944266.png",
+      "to": "public/images/illustrations/rwg-backup-internet-failover-20260627-01.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/remoteworkgeek_03/20260627_131634_juggernaut_2299944267.png",
+      "to": "public/images/illustrations/rwg-backup-internet-failover-20260627-02.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/remoteworkgeek_04/20260627_131652_krea_4077946090.png",
+      "to": "public/images/illustrations/rwg-backup-internet-failover-20260627-03.png"
+    },
+    {
+      "from": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260627_gti15/remoteworkgeek_04/20260627_131727_realvis_4077946091.png",
+      "to": "public/images/illustrations/rwg-backup-internet-failover-20260627-04.png"
+    }
+  ],
+  "visual_qa": "accepted after contact sheet inspection; rejected originals not referenced"
+}
