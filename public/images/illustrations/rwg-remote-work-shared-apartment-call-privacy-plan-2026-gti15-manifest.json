@@ -1,0 +1,38 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-shared-apartment-call-privacy-plan-2026",
+  "gti15_endpoint": "redacted LAN endpoint (gate passed)",
+  "accepted": [
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260628_gti15/remoteworkgeek/remote-work-shared-apartment-call-privacy-plan-2026/1/20260628_131427_krea_1361962122.png",
+      "file": "rwg-remote-work-shared-apartment-call-privacy-plan-2026-01.png",
+      "dimensions": "1536x864",
+      "qa": "PASS visual QA"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260628_gti15/remoteworkgeek/remote-work-shared-apartment-call-privacy-plan-2026/1/20260628_131504_realvis_1361962123.png",
+      "file": "rwg-remote-work-shared-apartment-call-privacy-plan-2026-02.png",
+      "dimensions": "1536x864",
+      "qa": "PASS visual QA"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260628_gti15/remoteworkgeek/remote-work-shared-apartment-call-privacy-plan-2026/1/20260628_131522_juggernaut_1361962124.png",
+      "file": "rwg-remote-work-shared-apartment-call-privacy-plan-2026-03.png",
+      "dimensions": "1536x864",
+      "qa": "PASS visual QA"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260628_gti15/remoteworkgeek/remote-work-shared-apartment-call-privacy-plan-2026/1/20260628_131615_realvis_2815986201.png",
+      "file": "rwg-remote-work-shared-apartment-call-privacy-plan-2026-04.png",
+      "dimensions": "1536x864",
+      "qa": "PASS visual QA"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260628_gti15/remoteworkgeek/remote-work-shared-apartment-call-privacy-plan-2026/1/20260628_131632_juggernaut_2815986202.png",
+      "file": "rwg-remote-work-shared-apartment-call-privacy-plan-2026-05.png",
+      "dimensions": "1536x864",
+      "qa": "PASS visual QA"
+    }
+  ],
+  "rejected_summary": "Rejected candidates with fake text/labels, hands/gloves, currency/calculators, plugged-USB risk, or nonsensical cat-in-bin scenes."
+}
