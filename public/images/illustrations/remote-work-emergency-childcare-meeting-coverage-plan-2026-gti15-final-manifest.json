@@ -1,0 +1,48 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-emergency-childcare-meeting-coverage-plan-2026",
+  "date": "2026-06-29",
+  "endpoint_host": "GTI15 direct ComfyUI endpoint (redacted in report)",
+  "accepted": [
+    {
+      "slot": 1,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_gti15_20260629/remoteworkgeek/run1/20260629_131515_realvis_1642464817.png",
+      "filename": "rwg-rwgote-work-emergency-childcare-meeting-coverage-plan-2026-01.png",
+      "dimensions": "1536x864",
+      "engine_from_filename": "20260629_131515_realvis_1642464817.png",
+      "status": "accepted_visual_QA"
+    },
+    {
+      "slot": 2,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_gti15_20260629/remoteworkgeek/run1/20260629_131530_juggernaut_1642464818.png",
+      "filename": "rwg-rwgote-work-emergency-childcare-meeting-coverage-plan-2026-02.png",
+      "dimensions": "1536x864",
+      "engine_from_filename": "20260629_131530_juggernaut_1642464818.png",
+      "status": "accepted_visual_QA"
+    },
+    {
+      "slot": 3,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_gti15_20260629/remoteworkgeek/run2/20260629_131546_krea_3739566734.png",
+      "filename": "rwg-rwgote-work-emergency-childcare-meeting-coverage-plan-2026-03.png",
+      "dimensions": "1536x864",
+      "engine_from_filename": "20260629_131546_krea_3739566734.png",
+      "status": "accepted_visual_QA"
+    },
+    {
+      "slot": 4,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_gti15_20260629/remoteworkgeek/run2/20260629_131618_realvis_3739566735.png",
+      "filename": "rwg-rwgote-work-emergency-childcare-meeting-coverage-plan-2026-04.png",
+      "dimensions": "1536x864",
+      "engine_from_filename": "20260629_131618_realvis_3739566735.png",
+      "status": "accepted_visual_QA"
+    },
+    {
+      "slot": 5,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_gti15_20260629/remoteworkgeek/run2/20260629_131633_juggernaut_3739566736.png",
+      "filename": "rwg-rwgote-work-emergency-childcare-meeting-coverage-plan-2026-05.png",
+      "dimensions": "1536x864",
+      "engine_from_filename": "20260629_131633_juggernaut_3739566736.png",
+      "status": "accepted_visual_QA"
+    }
+  ]
+}
