@@ -1,0 +1,44 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-screen-share-notification-privacy-audit-2026",
+  "date": "2026-07-01",
+  "endpoint_host": "GTI15 ComfyUI (internal endpoint redacted in report)",
+  "accepted": [
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/remoteworkgeek/prompt2/20260701_131617_krea_2290309586.png",
+      "published": "/home/taekm33/blog-ops/16-sites/remoteworkgeek/public/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-01.png",
+      "url": "/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-01.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/remoteworkgeek/prompt1/20260701_131541_realvis_3154319377.png",
+      "published": "/home/taekm33/blog-ops/16-sites/remoteworkgeek/public/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-02.png",
+      "url": "/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-02.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/remoteworkgeek/repair1/20260701_132436_krea_928473050.png",
+      "published": "/home/taekm33/blog-ops/16-sites/remoteworkgeek/public/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-03.png",
+      "url": "/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-03.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/remoteworkgeek/repair1/20260701_132513_realvis_928473051.png",
+      "published": "/home/taekm33/blog-ops/16-sites/remoteworkgeek/public/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-04.png",
+      "url": "/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-04.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260701_gti15/remoteworkgeek/repair1/20260701_132530_juggernaut_928473052.png",
+      "published": "/home/taekm33/blog-ops/16-sites/remoteworkgeek/public/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-05.png",
+      "url": "/images/illustrations/rwg-remote-work-screen-share-notification-privacy-audit-2026-gti15-05.png",
+      "qa": "accepted",
+      "dimensions": "1536x864"
+    }
+  ],
+  "visual_qa": "passed after rejecting unsafe/text/UI/currency/medicine/document candidates as applicable"
+}
