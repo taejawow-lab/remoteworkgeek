@@ -1,0 +1,28 @@
+export const REVIEW_POSTS = [
+  "async-team-handoff-system",
+  "backup-internet-failover-video-call-plan-2026",
+  "blue-light-glasses-evidence",
+  "cable-management-under-desk",
+  "desk-lighting-lux-research",
+  "desk-mat-leather-felt",
+  "ergonomic-chair-data-cornell-osha",
+  "green-screen-collapsible-zoom",
+  "home-office-acoustic-treatment-video-calls",
+  "home-office-backup-power-internet-plan",
+  "home-office-co2-ventilation-meeting-fatigue-plan-2026",
+  "monitor-size-refresh-rate-data",
+  "portable-monitor-ergonomics-remote-work-travel-setup-2026",
+  "posture-corrector-effectiveness",
+  "remote-team-documentation-operating-system",
+  "remote-work-camera-background-privacy-checklist-2026",
+  "remote-work-heatwave-power-outage-meeting-fallback-plan-2026",
+  "remote-work-home-network-guest-access-audit-plan-2026",
+  "remote-work-migraine-light-sensitivity-home-office-plan-2026",
+  "remote-work-wrist-pain-keyboard-break-ergonomics-plan-2026",
+  "secure-remote-work-travel-kit",
+  "usb-c-dock-thunderbolt",
+  "webcam-microphone-video-call-quality",
+  "wildfire-smoke-air-quality-remote-workday-plan-2026"
+];
+export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
+export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
