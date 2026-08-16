@@ -1,0 +1,81 @@
+{
+  "site": "remoteworkgeek",
+  "slug_prefix": "rwg-accessible-meetings-20260816",
+  "generated_at": "2026-08-16",
+  "assets": [
+    {
+      "prompt_id": "ce13c930-6633-4112-9e42-bf9af6e7e102",
+      "seed": 1016260100,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "empty meeting table with three tabletop microphones, headphones, acoustic wall panels and plain colored geometric wooden participation tokens",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "rwg-accessible-meetings-20260816-hero.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    },
+    {
+      "prompt_id": "41d65bbd-0c6e-4c4b-9244-e6f6a34d4d14",
+      "seed": 916260101,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "headphones and tabletop microphone beside three translucent blank speech-bubble shaped acrylic pieces on an empty desk, no laptop",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "rwg-accessible-meetings-20260816-01.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    },
+    {
+      "prompt_id": "59c9faa0-7cc8-4bd8-9f3b-88eba465c035",
+      "seed": 816260102,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "orderly conference table with two microphones spaced apart and blank turn-taking tokens, empty room, no people",
+      "negative_policy": ", realistic editorial photography, natural perspective, physically plausible objects, coherent clean scene, soft natural light, premium magazine quality, accurate proportions, text-free, logo-free, watermark-free, no people, no hands, no faces, no readable labels, no screens or user interface, no papers with markings",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "rwg-accessible-meetings-20260816-02.png",
+      "status": "ACCEPTED_VISUAL_QA"
+    },
+    {
+      "prompt_id": "10940166-9de3-4952-85c8-04e9bc72d525",
+      "seed": 916260102,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "multimodal participation still life with headphones, tabletop microphone, four plain colored geometric wooden tokens, closed laptop viewed from back",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "rwg-accessible-meetings-20260816-03.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    },
+    {
+      "prompt_id": "a49c2bb8-89d7-4f58-a080-a5dc2f5926af",
+      "seed": 916260103,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "prompt": "privacy lifecycle still life with closed laptop viewed from back, locked plain metal storage box, unplugged cable and three plain round wood markers",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "file": "rwg-accessible-meetings-20260816-04.png",
+      "status": "ACCEPTED_VISUAL_QA",
+      "regenerated": true
+    }
+  ],
+  "contact_sheet": "rwg-accessible-meetings-20260816-contact-sheet-published.jpg",
+  "visual_qa": "PASS: strict final contact-sheet inspection; only accepted published assets retained.",
+  "publish_policy": "Only listed assets may be transferred after final contact-sheet visual QA.",
+  "published_asset_count": 5
+}

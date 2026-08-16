@@ -22,7 +22,8 @@ export const REVIEW_POSTS = [
   "secure-remote-work-travel-kit",
   "usb-c-dock-thunderbolt",
   "webcam-microphone-video-call-quality",
-  "wildfire-smoke-air-quality-remote-workday-plan-2026"
+  "wildfire-smoke-air-quality-remote-workday-plan-2026",
+  "accessible-remote-meetings-live-captions-transcripts-checklist-2026"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
