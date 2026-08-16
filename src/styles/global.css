@@ -9,3 +9,9 @@
 
 @layer components{.cat-card-body{display:block;min-width:0}.cat-card-head{display:flex;align-items:baseline;justify-content:space-between;gap:1rem}.cat-card-head>span:first-child{display:inline-block}.prose-article table{width:100%;border-collapse:separate;border-spacing:0;margin:1.5rem 0}.prose-article th,.prose-article td{padding:.7rem .9rem;border-bottom:1px solid var(--hairline);vertical-align:top}.prose-article tr:last-child td{border-bottom:0}
 }
+/* Batch C mobile publisher QA: keep comparison tables inside the viewport. */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  .prose-article table { table-layout: fixed; max-width: 100%; }
+  .prose-article th, .prose-article td { padding: .55rem .4rem; overflow-wrap: anywhere; word-break: normal; }
+}
