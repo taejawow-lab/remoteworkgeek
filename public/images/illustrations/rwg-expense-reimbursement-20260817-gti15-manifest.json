@@ -1,0 +1,212 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-expense-reimbursement-calculator",
+  "title": "Remote Work Expense Reimbursement Calculator: Internet, Electricity, and Equipment",
+  "date": "2026-08-17",
+  "engine": "GTI15 FLUX.1 Krea dev",
+  "visual_qa": "PASS: all five final published assets reviewed; no readable/fake text, logos, UI, people/hands/faces, unsafe or wrong-domain imagery. Risky candidates were replaced before staging.",
+  "assets": [
+    {
+      "file": "public/images/illustrations/rwg-expense-reimbursement-20260817-hero.png",
+      "render_url": "/images/illustrations/rwg-expense-reimbursement-20260817-hero.png",
+      "suffix": "hero",
+      "seed": 202608172001,
+      "prompt": "simple black desk lamp, two neatly coiled plain cables, closed gray equipment case, four plain wooden cubes on empty white tabletop",
+      "engine": "krea",
+      "source_manifest": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "simple black desk lamp, two neatly coiled plain cables, closed gray equipment case, four plain wooden cubes on empty white tabletop, realistic minimalist editorial stock photograph, soft natural window light, physically plausible clean still life, muted neutral colors, simple unmarked objects only, no people, no animals except explicit cat shadow, no hands, no faces, no text, no typography, no letters, no digits, no logos, no icons, no symbols, no marks, no watermark, no screen, no computer, no phone, no router, no keyboard, no documents, no paper, no envelope, no receipt, no form, no calculator, no coins, no currency, no medicine, no label, no QR code, no barcode, 16:9",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "14d7ace3-687a-4a45-83f8-e96e8667c7ef",
+            "remote": {
+              "filename": "gti15_natural_krea_00403_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\hero\\20260817_133726_krea_202608172001.png",
+            "bytes": 1284942,
+            "seconds": 14,
+            "engine": "krea",
+            "seed": 202608172001,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\hero\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1284942,
+      "accepted": true,
+      "replacement_reason": "Strict parent visual QA rejected the initial candidate.",
+      "qa_status": "PASS",
+      "qa_checked": "2026-08-17 strict final contact-sheet/individual review"
+    },
+    {
+      "file": "public/images/illustrations/rwg-expense-reimbursement-20260817-01.png",
+      "render_url": "/images/illustrations/rwg-expense-reimbursement-20260817-01.png",
+      "suffix": "01",
+      "seed": 202608172002,
+      "prompt": "simple desk lamp, three smooth wooden cubes, two coiled plain cables, closed rectangular gray case on empty tabletop",
+      "engine": "krea",
+      "source_manifest": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "simple desk lamp, three smooth wooden cubes, two coiled plain cables, closed rectangular gray case on empty tabletop, realistic minimalist editorial stock photograph, soft natural window light, physically plausible clean still life, muted neutral colors, simple unmarked objects only, no people, no animals except explicit cat shadow, no hands, no faces, no text, no typography, no letters, no digits, no logos, no icons, no symbols, no marks, no watermark, no screen, no computer, no phone, no router, no keyboard, no documents, no paper, no envelope, no receipt, no form, no calculator, no coins, no currency, no medicine, no label, no QR code, no barcode, 16:9",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "3a329f24-d905-496c-80ce-e66ceeef5f71",
+            "remote": {
+              "filename": "gti15_natural_krea_00404_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\01\\20260817_133741_krea_202608172002.png",
+            "bytes": 1358976,
+            "seconds": 14,
+            "engine": "krea",
+            "seed": 202608172002,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\01\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1358976,
+      "accepted": true,
+      "replacement_reason": "Strict parent visual QA rejected the initial candidate.",
+      "qa_status": "PASS",
+      "qa_checked": "2026-08-17 strict final contact-sheet/individual review"
+    },
+    {
+      "file": "public/images/illustrations/rwg-expense-reimbursement-20260817-02.png",
+      "render_url": "/images/illustrations/rwg-expense-reimbursement-20260817-02.png",
+      "suffix": "02",
+      "seed": 202608172003,
+      "prompt": "one central plain wooden cube connected by plain white cords to two groups of smaller smooth wooden cubes on empty tabletop",
+      "engine": "krea",
+      "source_manifest": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "one central plain wooden cube connected by plain white cords to two groups of smaller smooth wooden cubes on empty tabletop, realistic minimalist editorial stock photograph, soft natural window light, physically plausible clean still life, muted neutral colors, simple unmarked objects only, no people, no animals except explicit cat shadow, no hands, no faces, no text, no typography, no letters, no digits, no logos, no icons, no symbols, no marks, no watermark, no screen, no computer, no phone, no router, no keyboard, no documents, no paper, no envelope, no receipt, no form, no calculator, no coins, no currency, no medicine, no label, no QR code, no barcode, 16:9",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "b429c441-1544-43ca-a6e2-6063ead7c395",
+            "remote": {
+              "filename": "gti15_natural_krea_00405_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\02\\20260817_133755_krea_202608172003.png",
+            "bytes": 1449111,
+            "seconds": 13,
+            "engine": "krea",
+            "seed": 202608172003,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\02\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1449111,
+      "accepted": true,
+      "replacement_reason": "Strict parent visual QA rejected the initial candidate.",
+      "qa_status": "PASS",
+      "qa_checked": "2026-08-17 strict final contact-sheet/individual review"
+    },
+    {
+      "file": "public/images/illustrations/rwg-expense-reimbursement-20260817-03.png",
+      "render_url": "/images/illustrations/rwg-expense-reimbursement-20260817-03.png",
+      "suffix": "03",
+      "seed": 202608174003,
+      "prompt": "nine large smooth rectangular wooden blocks in three separated groups, natural pale wood, sage wood, and dark charcoal wood, arranged on an otherwise completely empty white tabletop, minimalist editorial stock photograph, soft natural light, physically plausible, no other objects, no people, no hands, no faces, no text, no letters, no numbers, no logos, no symbols, no marks, no screens, no documents, no coins, no currency, no calculator, no labels, no watermark",
+      "engine": "krea",
+      "source_manifest": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "nine large smooth rectangular wooden blocks in three separated groups, natural pale wood, sage wood, and dark charcoal wood, arranged on an otherwise completely empty white tabletop, minimalist editorial stock photograph, soft natural light, physically plausible, no other objects, no people, no hands, no faces, no text, no letters, no numbers, no logos, no symbols, no marks, no screens, no documents, no coins, no currency, no calculator, no labels, no watermark",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "18f2bb1f-58b8-4dbe-8595-f8f56b8d4c2d",
+            "remote": {
+              "filename": "gti15_natural_krea_00415_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements4\\remoteworkgeek\\03\\20260817_134142_krea_202608174003.png",
+            "bytes": 1456582,
+            "seconds": 14,
+            "engine": "krea",
+            "seed": 202608174003,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements4\\remoteworkgeek\\03\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1456582,
+      "accepted": true,
+      "replacement_reason": "Strict parent visual QA rejected prior candidates.",
+      "qa_status": "PASS",
+      "qa_checked": "2026-08-17 strict final contact-sheet/individual review"
+    },
+    {
+      "file": "public/images/illustrations/rwg-expense-reimbursement-20260817-04.png",
+      "render_url": "/images/illustrations/rwg-expense-reimbursement-20260817-04.png",
+      "suffix": "04",
+      "seed": 202608172005,
+      "prompt": "two closed gray lockboxes with simple padlocks, separated on an otherwise empty clean tabletop",
+      "engine": "krea",
+      "source_manifest": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "two closed gray lockboxes with simple padlocks, separated on an otherwise empty clean tabletop, realistic minimalist editorial stock photograph, soft natural window light, physically plausible clean still life, muted neutral colors, simple unmarked objects only, no people, no animals except explicit cat shadow, no hands, no faces, no text, no typography, no letters, no digits, no logos, no icons, no symbols, no marks, no watermark, no screen, no computer, no phone, no router, no keyboard, no documents, no paper, no envelope, no receipt, no form, no calculator, no coins, no currency, no medicine, no label, no QR code, no barcode, 16:9",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "a16f0dee-04be-42bd-9779-5646f090718b",
+            "remote": {
+              "filename": "gti15_natural_krea_00407_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\04\\20260817_133824_krea_202608172005.png",
+            "bytes": 1266399,
+            "seconds": 14,
+            "engine": "krea",
+            "seed": 202608172005,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-c-20260817-replacements2\\remoteworkgeek\\04\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1266399,
+      "accepted": true,
+      "replacement_reason": "Strict parent visual QA rejected the initial candidate.",
+      "qa_status": "PASS",
+      "qa_checked": "2026-08-17 strict final contact-sheet/individual review"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/rwg-expense-reimbursement-20260817-contact-sheet-final.jpg",
+  "final_contact_sheet": "public/images/illustrations/rwg-expense-reimbursement-20260817-contact-sheet-final.jpg"
+}
