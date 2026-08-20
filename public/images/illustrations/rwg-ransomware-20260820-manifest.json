@@ -1,0 +1,64 @@
+{
+  "site": "remoteworkgeek",
+  "date": "2026-08-20",
+  "assets": [
+    {
+      "filename": "rwg-ransomware-20260820-hero.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820\\remoteworkgeek\\01\\20260820_142021_krea_1797612065.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "19f5adc4-9640-460b-83bf-28a28e971447",
+      "seed": 1797612065,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "rwg-ransomware-20260820-01.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820_replacements2\\remoteworkgeek\\02\\20260820_143158_krea_3895743901.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "4d9d5837-81ce-42e2-972b-d2936f283eb0",
+      "seed": 3895743901,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "rwg-ransomware-20260820-02.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820_replacements\\remoteworkgeek\\03\\20260820_142821_krea_3324878205.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "22742b5a-6204-4b1e-903c-280567946ba7",
+      "seed": 3324878205,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "rwg-ransomware-20260820-03.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820_replacements2\\remoteworkgeek\\04\\20260820_143211_krea_1424513413.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "d6c685ea-1aa0-47f1-9c99-cfa7fab5dac3",
+      "seed": 1424513413,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    },
+    {
+      "filename": "rwg-ransomware-20260820-05.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchc_20260820\\remoteworkgeek\\06\\20260820_142122_krea_3922396148.png",
+      "engine": "krea",
+      "model": null,
+      "prompt_id": "285fbc0f-a3d6-4f20-a14e-d6fce86d2535",
+      "seed": 3922396148,
+      "width": 1536,
+      "height": 864,
+      "qa": "accepted_visual_qa"
+    }
+  ],
+  "rejected_excluded": [
+    "rwg-ransomware-20260820-04.png"
+  ]
+}
