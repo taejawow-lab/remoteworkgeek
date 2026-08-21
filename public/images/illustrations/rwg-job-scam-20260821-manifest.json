@@ -1,0 +1,189 @@
+{
+  "site": "remoteworkgeek",
+  "created_at": "2026-08-21",
+  "backend": "GTI15 ComfyUI",
+  "endpoint": "REDACTED",
+  "model_family": "Krea",
+  "assets": [
+    {
+      "filename": "rwg-job-scam-20260821-hero.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run0\\20260821_134631_krea_2026082200.png",
+      "prompt": "realistic editorial photo of a remote job seeker at a tidy desk viewing a dark blank laptop screen, face turned away, plain notebook closed, cautious verification mood, no readable text, no logos, no fake UI, no phone screen, no documents, natural light",
+      "seed": 2026082200,
+      "dimensions": "1536x864",
+      "engine": "krea",
+      "accepted": true,
+      "provenance": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "realistic editorial photo of a remote job seeker at a tidy desk viewing a dark blank laptop screen, face turned away, plain notebook closed, cautious verification mood, no readable text, no logos, no fake UI, no phone screen, no documents, natural light",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "69ab1bcb-53ac-4a19-9f76-6f5fdf8f8260",
+            "remote": {
+              "filename": "gti15_natural_krea_00586_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run0\\20260821_134631_krea_2026082200.png",
+            "bytes": 1398634,
+            "seconds": 12,
+            "engine": "krea",
+            "seed": 2026082200,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run0\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "qa_status": "PASS"
+    },
+    {
+      "filename": "rwg-job-scam-20260821-01.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run1\\20260821_134643_krea_2026082201.png",
+      "prompt": "realistic office still life comparing a sealed plain envelope, closed laptop and unplugged cable, job offer verification metaphor, no money, no checks, no cards, no readable text, no labels, no logos, no screens",
+      "seed": 2026082201,
+      "dimensions": "1536x864",
+      "engine": "krea",
+      "accepted": true,
+      "provenance": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "realistic office still life comparing a sealed plain envelope, closed laptop and unplugged cable, job offer verification metaphor, no money, no checks, no cards, no readable text, no labels, no logos, no screens",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "7ef120fb-66ed-40ae-94aa-429b74a6d7d1",
+            "remote": {
+              "filename": "gti15_natural_krea_00587_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run1\\20260821_134643_krea_2026082201.png",
+            "bytes": 1638232,
+            "seconds": 12,
+            "engine": "krea",
+            "seed": 2026082201,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run1\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "qa_status": "PASS"
+    },
+    {
+      "filename": "rwg-job-scam-20260821-02.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\regen_02\\20260821_140409_krea_2026089100.png",
+      "prompt": "realistic editorial still life representing independent employer verification: a dark face-down unbranded phone beside a closed laptop, plain magnifying glass and sealed blank envelope, no people, no hands, no screens visible, no UI, no text, no labels, no logos, no money, no checks, no cards",
+      "seed": 2026089100,
+      "dimensions": "1536x864",
+      "engine": "krea",
+      "accepted": true,
+      "provenance": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "realistic editorial photograph of a professional on a voice call using a dark blank phone held away from camera while independently verifying an employer, face not visible, laptop closed, no text, no logos, no UI, no branded objects",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "8a8d6326-d1d4-4c32-a383-6623fd2561f6",
+            "remote": {
+              "filename": "gti15_natural_krea_00588_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run2\\20260821_134656_krea_2026082202.png",
+            "bytes": 1413555,
+            "seconds": 12,
+            "engine": "krea",
+            "seed": 2026082202,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run2\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "qa_note": "regenerated after strict contact-sheet rejection",
+      "qa_status": "PASS"
+    },
+    {
+      "filename": "rwg-job-scam-20260821-03.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run3\\20260821_134708_krea_2026082203.png",
+      "prompt": "realistic overhead photo of blank sticky notes arranged into a decision tree on corkboard, magnifying glass and plain folder, remote job scam screening metaphor, no writing, no numbers, no calendar grid, no logos, no screens",
+      "seed": 2026082203,
+      "dimensions": "1536x864",
+      "engine": "krea",
+      "accepted": true,
+      "provenance": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "realistic overhead photo of blank sticky notes arranged into a decision tree on corkboard, magnifying glass and plain folder, remote job scam screening metaphor, no writing, no numbers, no calendar grid, no logos, no screens",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "32a8bfda-f3b2-46d2-a9ea-a27795466791",
+            "remote": {
+              "filename": "gti15_natural_krea_00589_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run3\\20260821_134708_krea_2026082203.png",
+            "bytes": 2301416,
+            "seconds": 12,
+            "engine": "krea",
+            "seed": 2026082203,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run3\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "qa_status": "PASS"
+    },
+    {
+      "filename": "rwg-job-scam-20260821-04.png",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\regen3_04\\20260821_141025_realvis_2026095100.png",
+      "prompt": "minimal realistic editorial photograph of a completely plain unmarked cardboard shipping box open on a clean desk containing one neutral unbranded keyboard and one cable, no paper, no shipping label, no barcode, no receipt, no laptop, no screen, no money, no checks, no cards, no text, no logos",
+      "seed": 2026095100,
+      "dimensions": "1536x864",
+      "engine": "realvis",
+      "accepted": true,
+      "provenance": {
+        "endpoint": "http://192.168.50.31:8188",
+        "prompt": "realistic editorial photo of a clean home office with closed laptop, empty shipping box and plain unbranded equipment on desk, cautious equipment-purchase verification concept, no labels, no receipts, no checks, no money, no readable text, no logos",
+        "positive_suffix": " realistic, natural perspective, physically plausible objects, coherent scene, professional editorial stock photo style, clean composition, soft natural light, no artificial AI look, no oversaturated colors, no surreal elements, no fantasy objects, text-free, logo-free, no watermark, no people, no hands, no faces, no readable labels, closed laptop or blank/off screens only, no visible UI, no document-like surfaces",
+        "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+        "results": [
+          {
+            "prompt_id": "63311dd1-3252-4831-8a34-6ab12f74942d",
+            "remote": {
+              "filename": "gti15_natural_krea_00590_.png",
+              "subfolder": "",
+              "type": "output"
+            },
+            "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run4\\20260821_134721_krea_2026082204.png",
+            "bytes": 1424577,
+            "seconds": 12,
+            "engine": "krea",
+            "seed": 2026082204,
+            "status": "NEEDS_VISUAL_QA",
+            "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible."
+          }
+        ],
+        "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\run4\\contact_sheet.jpg",
+        "publish_policy": "DO_NOT_PUBLISH until explicit visual QA pass. Generate replacements until all selected images look plausible to a normal reader."
+      },
+      "qa_note": "second strict regeneration",
+      "qa_status": "PASS"
+    }
+  ],
+  "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_c_20260821\\remoteworkgeek\\rwg-job-scam-20260821-contact-sheet-accepted-final.jpg",
+  "qa_status": "PASS",
+  "qa_summary": "Five published raster assets visually inspected after targeted regenerations; no rejected assets remain in the published set."
+}
