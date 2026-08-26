@@ -26,7 +26,8 @@ export const REVIEW_POSTS = [
   "accessible-remote-meetings-live-captions-transcripts-checklist-2026",
   "remote-work-expense-reimbursement-calculator",
   "remote-work-ransomware-first-hour-response-plan",
-  "remote-job-scam-verification-offer-interview-checklist"
+  "remote-job-scam-verification-offer-interview-checklist",
+  "home-office-paper-printer-data-retention-shredding-cleanup"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

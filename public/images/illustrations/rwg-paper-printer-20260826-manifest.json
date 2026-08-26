@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-08-26",
+  "backend": "GTI15 ComfyUI",
+  "endpoint": "redacted",
+  "article_slug": "home-office-paper-printer-data-retention-shredding-cleanup",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "filename": "rwg-paper-printer-20260826-hero.png",
+      "engine": "krea",
+      "seed": 441954668,
+      "prompt_id": "aad7c833-7a0a-4320-9cc8-596e36af8858",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1496400,
+      "prompt": "Editorial still life for remote-worker paper and printer cleanup: cross-cut shredder, sealed blank paper bags, plain unlabeled archive cartons, powered-off printer, clean safe cables, no people, no hands, no documents with writing, no text, no labels, no logos, no screens or UI, realistic neutral light, horizontal composition",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "rwg-paper-printer-20260826-01.png",
+      "engine": "realvis",
+      "seed": 441954669,
+      "prompt_id": "5e00b91c-b8c8-48bf-b7a2-8dba6d8fe374",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1305583,
+      "prompt": "Editorial still life for remote-worker paper and printer cleanup: cross-cut shredder, sealed blank paper bags, plain unlabeled archive cartons, powered-off printer, clean safe cables, no people, no hands, no documents with writing, no text, no labels, no logos, no screens or UI, realistic neutral light, horizontal composition",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "rwg-paper-printer-20260826-02.png",
+      "engine": "juggernaut",
+      "seed": 441954670,
+      "prompt_id": "abf135b0-3b18-4df2-8851-cdbb15a078c5",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1258924,
+      "prompt": "Editorial still life for remote-worker paper and printer cleanup: cross-cut shredder, sealed blank paper bags, plain unlabeled archive cartons, powered-off printer, clean safe cables, no people, no hands, no documents with writing, no text, no labels, no logos, no screens or UI, realistic neutral light, horizontal composition",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "rwg-paper-printer-20260826-03.png",
+      "engine": "krea",
+      "seed": 3118620040,
+      "prompt_id": "7b560439-abf6-4947-92f7-40eb0ae8959e",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1407887,
+      "prompt": "Minimal editorial paper-retention scene: four completely blank closed folders and one sealed plain archive carton on an empty wood table, powered-off unbranded printer softly in background, no loose paper, no people, no hands, no text, no labels, no logos, no screens, no UI, realistic natural light, horizontal",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    },
+    {
+      "filename": "rwg-paper-printer-20260826-04.png",
+      "engine": "krea",
+      "seed": 2656945455,
+      "prompt_id": "31beedc9-4bf1-422a-9264-803fd0d147c7",
+      "model": null,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1760858,
+      "prompt": "Natural editorial home-office records sorting still life: four plain closed fabric document pouches in distinct neutral colors, two sealed unmarked cardboard archive boxes, empty woven basket, no printer, no computer, no paper sheets, no cables, no people, no hands, no text, no labels, no logos, physically plausible, clean daylight, horizontal 16 by 9",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "visual_qa": "accepted",
+      "accepted": true
+    }
+  ],
+  "qa": "Final selected assets visually inspected; rejected candidates excluded."
+}
