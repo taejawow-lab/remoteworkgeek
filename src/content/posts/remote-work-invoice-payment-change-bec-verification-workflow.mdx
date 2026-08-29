@@ -1,0 +1,229 @@
+---
+title: "Remote Invoice Payment-Change Fraud: A BEC Verification Workflow"
+description: "A remote-team workflow to verify invoice bank-detail changes through an independent channel, document approvals, hold suspicious payments, and escalate fast after a transfer."
+pubDate: 2026-08-29
+updatedDate: 2026-08-29
+category: "Remote Security"
+tags: ["business email compromise", "invoice fraud", "payment verification", "accounts payable", "remote work security"]
+heroImage: "/images/illustrations/rwg-bec-payment-20260829-hero.png"
+schemaType: "HowTo"
+sources:
+  - title: "Business Email Compromise"
+    url: "https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-scams-and-crimes/business-email-compromise"
+    publication: "Federal Bureau of Investigation"
+    year: "2026 accessed"
+  - title: "Business Email Compromise: The $55 Billion Scam"
+    url: "https://www.ic3.gov/PSA/2024/PSA240911"
+    publication: "Internet Crime Complaint Center"
+    year: "2024"
+  - title: "2024 IC3 Annual Report"
+    url: "https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf"
+    publication: "Internet Crime Complaint Center"
+    year: "2025"
+  - title: "Recognize and Report Phishing"
+    url: "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+    publication: "Cybersecurity and Infrastructure Security Agency"
+    year: "2026 accessed"
+  - title: "Phishing"
+    url: "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"
+    publication: "Federal Trade Commission"
+    year: "2018"
+  - title: "Business Email Imposters"
+    url: "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/business"
+    publication: "Federal Trade Commission"
+    year: "2026 accessed"
+  - title: "NIST Special Publication 800-63B"
+    url: "https://pages.nist.gov/800-63-4/sp800-63b.html"
+    publication: "National Institute of Standards and Technology"
+    year: "2025"
+  - title: "Report Fraud"
+    url: "https://www.justice.gov/criminal/criminal-fraud/report-fraud"
+    publication: "U.S. Department of Justice"
+    year: "2026"
+internalLinks:
+  - "/posts/remote-job-scam-verification-offer-interview-checklist/"
+  - "/posts/remote-team-documentation-operating-system/"
+  - "/posts/async-team-handoff-system/"
+  - "/posts/secure-remote-work-travel-kit/"
+visualsCount: 5
+hasVideo: false
+wordCount: 2383
+affiliate: false
+aiDisclosed: true
+faq:
+  - question: "Is replying to the vendor’s email enough to verify new payment details?"
+    answer: "No. The mailbox or conversation may be compromised. Verify through a previously trusted phone number, portal, or known contact that was not supplied in the change request, then document who confirmed what and when."
+  - question: "Should a small bank-detail change follow the same workflow as a large one?"
+    answer: "Yes. Every destination change should receive independent verification. Organizations may add stronger approval and cooling-off requirements at higher thresholds, but a low amount should not bypass the base control."
+  - question: "What should we do if money was already sent?"
+    answer: "Contact the sending financial institution immediately, request its fraud and recall process, preserve records, notify internal security and leadership, and report through the appropriate law-enforcement channel. Recovery is not guaranteed, so speed and accurate details matter."
+draft: false
+---
+
+A credible invoice can arrive inside a real vendor thread, use the right project name, and still redirect money to a criminal account. Remote teams are especially exposed when finance, project owners, executives, and vendors work through email and chat across time zones. The control is not “look harder at the email.” It is **stop the destination change, verify it through an independently sourced channel, record the evidence, and release only through authorized approval.**
+
+![Remote accounts-payable team pausing an invoice payment change for independent verification](/images/illustrations/rwg-bec-payment-20260829-hero.png)
+
+The FBI’s [business email compromise overview](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-scams-and-crimes/business-email-compromise) describes messages that appear to come from known sources, including vendors changing invoice details. It recommends independently looking up a known phone number, verifying payment-procedure changes with the requester, and contacting the financial institution immediately after a fraudulent transfer. This workflow operationalizes those ideas; it does not guarantee prevention, recovery, legal compliance, or bank reimbursement.
+
+## Define the event: destination change, not “just an invoice”
+
+Trigger the workflow whenever a request changes where or how value will be sent. That includes a new bank name, beneficiary, account number, routing code, IBAN, SWIFT code, mailing address for checks, payment portal, card link, wallet, currency, factoring company, or instruction to split a payment. It also includes “temporary” exceptions and a first invoice from a supplier whose master record was created from email alone.
+
+Do not let familiarity lower the control. A criminal may compromise the vendor, your colleague, or both; spoof a nearly identical domain; or enter an authentic conversation after studying prior billing. Urgency, secrecy, mobile-only approval, changed tone, and explanations about audit, travel, or executive pressure are useful warning signals, but their absence proves nothing.
+
+The IC3’s [2024 BEC public service announcement](https://www.ic3.gov/PSA/2024/PSA240911) defines BEC as a sophisticated scam targeting legitimate fund-transfer requests and reports 305,033 domestic and international incidents with about $55.5 billion in exposed losses for October 2013 through December 2023. Those figures describe reports and exposed loss over a stated period, not the probability that one invoice is fraudulent.
+
+## The non-negotiable verification rule
+
+**Never verify a payment change using contact information, links, attachments, QR codes, calendar invitations, or reply paths supplied in the change request.** Start from a trusted source that existed before the request: the approved vendor master record, a signed contract already on file, a procurement portal opened from a bookmark, or a known contact reached at a previously validated number.
+
+A reply in the same thread is not independent. A call to the new number in the email signature is not independent. A chat message to an account opened from the email is not independent. “The vendor confirmed by email” merely confirms that whoever controls the relevant mailbox can answer.
+
+CISA’s [phishing guidance](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing) highlights urgent messaging, mismatched sender domains, and the safer habit of typing a known site directly rather than following an email shortcut. The FTC’s [small-business phishing guidance](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing) likewise advises checking requests through a trusted contact method and training staff to report suspicious messages. Apply that pause even when the message passes spam filters.
+
+![Independent-channel verification diagram separating the incoming request from trusted vendor records and approvers](/images/illustrations/rwg-bec-payment-20260829-01.png)
+
+## Seven-step payment-change workflow
+
+### 1. Quarantine the change
+
+Mark the invoice or vendor record “payment change—hold.” Prevent automatic release, scheduled payment, and same-day exception handling. Do not modify the trusted master record yet. Preserve the original message, headers if available, attachment, portal notification, and relevant chat without forwarding malicious links widely.
+
+### 2. Open a case in the system of record
+
+Assign an owner and case ID. Record the vendor legal name, invoice number, amount, due date, old destination, proposed destination, requester identity, arrival channel, time received, and related purchase order or contract. Limit full bank details to personnel and systems authorized to handle them; a ticket visible to the whole company should use masked values.
+
+A lightweight case can live in the team’s documented workflow, provided access and retention are appropriate. A [remote-team documentation operating system](/posts/remote-team-documentation-operating-system/) helps define the canonical record, while an [async handoff system](/posts/async-team-handoff-system/) can keep a hold intact across time zones. Neither replaces finance authorization or confidential-data controls.
+
+### 3. Compare, but do not decide from comparison alone
+
+Check the sender’s full address and domain, reply-to address, wording, invoice sequence, tax identity, contract entity, expected amount, currency, and prior destination. Confirm whether the business event makes sense with the project owner. Treat discrepancies as escalation signals. Treat a perfect match only as context; compromised accounts can reproduce exact historical details.
+
+The FTC’s [business-email-imposter guidance](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/business) recommends policies requiring verification of changes to vendor payment information and encourages staff to call a known number rather than one supplied by email. A policy should specify what counts as a trusted source before pressure arrives.
+
+### 4. Contact the vendor independently
+
+Use a pre-existing trusted number or authenticated portal. If no trusted route exists, procurement or the vendor owner must establish one through a separate, documented process; the requester cannot self-certify the destination change. Ask for a known contact by name, not merely “accounts receivable.”
+
+Read back only a masked comparison where possible. For example: “Our record ends in 4821; your request proposes an account ending in 7736. Did your authorized team initiate this change?” Confirm the effective date, legal beneficiary name, changed fields, and a second vendor contact if policy requires it. Do not ask the vendor to send full bank data through ordinary chat just to satisfy the checklist.
+
+### 5. Require internal separation of duties
+
+The person who received or entered the change should not be the sole person who verifies and releases it. A second authorized reviewer should inspect the case, evidence of independent contact, purchase authority, and destination change. Higher-risk changes can require finance leadership, procurement, or legal review under the organization’s policy.
+
+Authentication strengthens accounts but does not replace transaction verification. NIST [SP 800-63B](https://pages.nist.gov/800-63-4/sp800-63b.html) explains authentication assurance levels and explicitly notes that passwords and one-time-password methods are not phishing-resistant. Prefer phishing-resistant authentication where supported, but retain an independent payment-control process even when every user has MFA.
+
+### 6. Apply a cooling-off period and controlled update
+
+After verification, hold the change for the period defined by policy unless a documented exception authority approves otherwise. Notify the vendor through the old trusted route that a destination change is pending. Update the master record through role-controlled workflow, preserving old and new masked values, who changed them, who approved them, and when.
+
+For the first payment to a changed destination, consider a policy-defined test payment or bank account-name validation where legally and operationally available. A test transfer is not proof by itself: a criminal account can receive a small amount too. Release the full invoice only after every required control passes.
+
+### 7. Close with an audit trail
+
+Attach confirmation evidence without oversharing sensitive data. Record the independent channel, contact identity, call-back source, verification time, reviewers, exception basis, release time, and transaction reference. Set a follow-up for the vendor to confirm receipt through the trusted route. If the vendor denies the change at any point, keep the hold and escalate as an incident.
+
+## Decision table for remote finance teams
+
+| Condition | Payment status | Minimum response | Escalation |
+|---|---|---|---|
+| Destination unchanged and invoice matches approved record | normal controls apply | validate invoice, purchase, and authority | follow ordinary exception policy |
+| Any new or changed destination | hold | independent vendor verification plus authorized second review | finance owner if verification fails or conflicts |
+| Requester insists on email-only confirmation | hold | use pre-existing trusted channel anyway | security and finance leadership |
+| Look-alike domain, suspicious link, unexpected attachment, or account takeover sign | hold; do not interact with content | preserve evidence and report internally | security incident response |
+| Change verified but amount exceeds enhanced-control threshold | hold until enhanced controls pass | additional approval and cooling-off period | designated executive or treasury role |
+| Transfer already released to a suspect destination | incident; stop later payments | call sending bank immediately and request fraud/recall process | security, leadership, insurer/counsel as applicable, law enforcement |
+| Vendor cannot be reached before due date | hold | document attempts and notify business owner | authorized exception body; never requester alone |
+
+![Payment-change decision table with hold, verify, approve, and incident branches](/images/illustrations/rwg-bec-payment-20260829-02.png)
+
+## Quantitative scenario: the cost of a control delay
+
+Consider a remote agency processing an invoice for **$48,600**. The message requests new bank details and says a late payment will incur a **1.5%** charge. Verification takes two business hours, missing the alleged same-day cutoff.
+
+The claimed late charge is:
+
+**$48,600 × 0.015 = $729.**
+
+The amount exposed if the full principal is diverted is:
+
+**$48,600.**
+
+The principal is **$48,600 ÷ $729 = 66.67 times** the claimed fee. Even if the fee is contractually valid—which must be checked rather than assumed—the decision is not “lose $729 or trust the email.” It is “hold $48,600 while authorized staff verify the change and separately resolve any legitimate fee.” The example excludes downtime, investigation, legal costs, tax effects, recovery, insurance, and relationship damage. It illustrates scale, not an expected-loss formula.
+
+The FBI’s [2024 IC3 Annual Report](https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf) reports broad complaint and loss data and identifies BEC among the agency’s educational priorities. Reported totals cannot predict recovery in a particular incident, but they reinforce why a short operational delay can be proportionate to a high-consequence transfer.
+
+Organizations can add tiered controls without creating a loophole:
+
+- every destination change: independent verification and two-person review;
+- above an internal threshold: additional treasury approval;
+- new country, currency, beneficiary, or payment rail: enhanced due diligence;
+- urgent exception: named authority, written rationale, and retrospective review.
+
+Keep thresholds confidential where appropriate and revisit them after near misses. Never advertise that requests just below a threshold receive no scrutiny.
+
+## Verification call script
+
+Use plain language and do not coach the contacted person toward “yes.”
+
+> “I’m calling using the number already in our approved vendor record. We received a request at [time] to change payment instructions for invoice [number]. Before discussing details, please confirm your name, role, and the internal person authorized to approve bank changes. Did your organization initiate a change effective [date]? Which fields changed? We will complete our internal review and will not release payment based only on this call.”
+
+If the answer conflicts with the request, stop. Do not confront the suspected sender or reveal detection methods. Notify security so it can preserve logs, check mailbox rules and sessions, and scope related messages. A prior [remote-job scam verification checklist](/posts/remote-job-scam-verification-offer-interview-checklist/) offers complementary identity-check habits, but employment scams and accounts-payable incidents require different owners and evidence.
+
+## If the transfer already happened
+
+Speed matters, but recovery is uncertain. Contact the sending financial institution immediately through its known fraud channel. Provide the transaction reference, amount, date and time, beneficiary details, and a concise statement that BEC or payment-diversion fraud is suspected. Ask for the institution’s recall, freeze, or fraud process and required indemnification documents. Do not promise colleagues that a recall will succeed.
+
+Preserve the original message, full headers where available, attachments, audit records, vendor-master changes, approval logs, call notes, authentication events, mailbox rules, forwarding settings, and transaction confirmation. Restrict access and follow legal hold, privacy, employment, and incident-response requirements applicable to the organization. Do not delete the suspicious email, continue negotiating with the actor, or run unapproved forensic tools on a production account.
+
+Report internally to finance, security, leadership, and counsel or the insurer as policy requires. The Department of Justice [fraud-reporting directory](https://www.justice.gov/criminal/criminal-fraud/report-fraud) points internet-fraud reports to IC3 and identifies other agencies for other fraud types. Jurisdiction, contractual notice, insurer deadlines, privacy obligations, and law-enforcement routes vary; obtain qualified advice rather than treating this article as legal guidance.
+
+![Incident-response timeline showing bank contact first, evidence preservation, internal escalation, and reporting](/images/illustrations/rwg-bec-payment-20260829-03.png)
+
+## Team checklist
+
+### Before requests arrive
+
+- [ ] Define every field that triggers payment-change verification.
+- [ ] Maintain vendor contacts from trusted, pre-existing sources.
+- [ ] Separate request entry, verification, approval, and release roles.
+- [ ] Configure holds so scheduled payments cannot bypass review.
+- [ ] Set enhanced-control thresholds without exempting small changes.
+- [ ] Require phishing-resistant authentication where practical and protect recovery methods.
+- [ ] Document bank fraud numbers, insurer contacts, counsel, and reporting paths.
+- [ ] Rehearse cross-time-zone handoffs with a case owner and explicit hold state.
+
+### For each change
+
+- [ ] Hold the invoice and vendor-master update.
+- [ ] Create a restricted case and mask bank details in broad systems.
+- [ ] Preserve the request and inspect addresses, context, and discrepancies.
+- [ ] Call or authenticate through a channel not supplied in the request.
+- [ ] Confirm authority, effective date, beneficiary, and changed fields.
+- [ ] Obtain the required independent internal approvals.
+- [ ] Apply the cooling-off period and any enhanced controls.
+- [ ] Update through controlled workflow and retain an audit trail.
+- [ ] Confirm receipt through the trusted route after payment.
+
+### If compromise is suspected
+
+- [ ] Stop pending and future payments.
+- [ ] Contact the financial institution immediately if funds moved.
+- [ ] Preserve evidence and notify security without tipping off the actor.
+- [ ] Check related invoices, vendor changes, mailbox access, and rules.
+- [ ] Follow internal, insurer, legal, regulatory, and law-enforcement procedures.
+
+When team members work from hotels, coworking spaces, or client sites, the same payment hold must survive device and network changes. Use the [secure remote-work travel kit](/posts/secure-remote-work-travel-kit/) to reduce endpoint exposure, but never treat a secure laptop as proof that a vendor request is genuine.
+
+![Accounts-payable checklist board with verified contact, dual approval, cooling-off period, and audit record](/images/illustrations/rwg-bec-payment-20260829-04.png)
+
+## Limitations and escalation boundaries
+
+No checklist can prove that every caller, document, mailbox, or portal is authentic. Collusion, compromised vendor systems, deepfake voice, insider abuse, forged corporate records, and changes inside banking networks may defeat a single control. Independent channels, separation of duties, authenticated systems, transaction monitoring, and post-payment confirmation form layers; none is a universal guarantee.
+
+This workflow is general operational guidance, not legal, banking, insurance, accounting, sanctions, privacy, or regulatory advice. Do not collect identity documents or full bank credentials merely because a checklist exists. Use the minimum data authorized by policy and protect it according to its sensitivity. Never ask a vendor to disclose passwords, one-time codes, or remote-access control.
+
+Escalate rather than improvise when verification sources conflict, the vendor cannot be reached, the destination crosses an unexpected jurisdiction, the beneficiary name differs, the requester demands secrecy, a senior leader bypasses controls, or there are signs of mailbox compromise. Business urgency can change who approves an exception; it must not turn the requester into the verifier.
+
+The durable rule is straightforward: **a changed payment destination stays on hold until an independent trusted channel and the required internal authorities confirm it.** If money moved before that confirmation, call the bank first, preserve evidence, and activate the organization’s incident and reporting procedures immediately.

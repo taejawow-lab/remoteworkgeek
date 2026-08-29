@@ -1,0 +1,76 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "remote-work-invoice-payment-change-bec-verification-workflow",
+  "generated_at": "2026-08-29T17:00:00+09:00",
+  "generator": "GTI15 ComfyUI",
+  "generator_endpoint": "http://192.168.50.31:8188",
+  "visual_qa": "PASS after iterative contact-sheet review; rejected candidates excluded",
+  "contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_selected/remoteworkgeek-selected-contact-sheet.jpg",
+  "assets": [
+    {
+      "engine": "krea",
+      "seed": 2026082962,
+      "prompt_id": "0d4657fc-6410-4cec-a563-95e0de9184e5",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_remote_final3/01/20260829_170800_krea_2026082962.png",
+      "prompt": "realistic editorial overhead photograph of smooth plain wooden blocks arranged in two orderly groups with one small gap between them, neutral studio surface. only plain unmarked surfaces, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no lock, no padlock, no document, no paper, no form, no box, no cable, no screen, no user interface, no phone, no people, no hands, no faces, no distortion",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "rwg-bec-payment-20260829-hero.png",
+      "bytes": 1647492
+    },
+    {
+      "engine": "krea",
+      "seed": 2026082963,
+      "prompt_id": "338c2b01-0c85-47c8-ac85-2ebadc818df9",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_remote_final3/02/20260829_170813_krea_2026082963.png",
+      "prompt": "realistic editorial photograph of a quiet conference room with one closed plain laptop on a completely empty table, screen hidden, chairs aligned, no people. only plain unmarked surfaces, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no lock, no padlock, no document, no paper, no form, no box, no cable, no screen, no user interface, no phone, no people, no hands, no faces, no distortion",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "rwg-bec-payment-20260829-01.png",
+      "bytes": 1408365
+    },
+    {
+      "engine": "krea",
+      "seed": 2026082950,
+      "prompt_id": "c7430337-3eff-44dc-9083-076a288f94d9",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_final2/remoteworkgeek/04/20260829_170419_krea_2026082950.png",
+      "prompt": "realistic editorial photograph of an empty meeting room with a closed blank laptop centered on a clear table and a plain door in background, no other objects. only plain unlabeled objects, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no screen, no user interface, no document, no paper, no form, no bottle, no medicine, no calculator, no currency, no card, no keyboard, no smartphone, no people, no hands, no faces, no distorted geometry",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "rwg-bec-payment-20260829-02.png",
+      "bytes": 1437474
+    },
+    {
+      "engine": "krea",
+      "seed": 2026082981,
+      "prompt_id": "186f05cf-6c32-4671-8c71-d8dcb3392941",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_remote_final4/00/20260829_171004_krea_2026082981.png",
+      "prompt": "realistic editorial photograph of a quiet woodland footpath dividing into two distinct trails under soft morning light, no structures and no people. natural unmarked scene, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no sign, no building, no door, no lock, no padlock, no document, no paper, no form, no box, no cable, no computer, no screen, no phone, no people, no hands, no faces, no distortion",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "rwg-bec-payment-20260829-03.png",
+      "bytes": 2293579
+    },
+    {
+      "engine": "krea",
+      "seed": 2026082982,
+      "prompt_id": "d607326b-88ec-452e-9006-87c497a3b8f5",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_c_20260829_gti15_remote_final4/01/20260829_171018_krea_2026082982.png",
+      "prompt": "realistic editorial overhead photograph of smooth plain river stones arranged in two orderly groups separated by a narrow empty gap on a dark matte surface. natural unmarked scene, absolutely no text, no letters, no numbers, no symbols, no QR patterns, no barcode, no label, no logo, no brand, no watermark, no sign, no building, no door, no lock, no padlock, no document, no paper, no form, no box, no cable, no computer, no screen, no phone, no people, no hands, no faces, no distortion",
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": "1536x864",
+      "accepted": true,
+      "qa_status": "PASSED_VISUAL_QA",
+      "filename": "rwg-bec-payment-20260829-04.png",
+      "bytes": 1842918
+    }
+  ]
+}
