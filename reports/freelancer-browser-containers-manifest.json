@@ -1,0 +1,85 @@
+{
+  "site": "remoteworkgeek",
+  "slug": "freelancer-browser-containers-saas-workspace-mix-up-prevention",
+  "generated_at": "2026-09-01",
+  "accepted": [
+    {
+      "file": "public/images/freelancer-browser-containers-saas-workspace-mix-up-prevention/hero.png",
+      "asset_id": "74c749dc-03e0-47d7-a7ed-af61001dfd19",
+      "prompt_id": "7919bb92-e360-4808-af69-9741f551ffe2",
+      "source_filename": "ComfyUI_00257_.png",
+      "dimensions": "1536x864",
+      "bytes": 1425468,
+      "sha256": "47db40e7587de8531cd3ffb7ba3640bc5b7eaa02aab657fc5df062c968dfaab2",
+      "visual_qa": "clean text-free tray separation"
+    },
+    {
+      "file": "public/images/freelancer-browser-containers-saas-workspace-mix-up-prevention/01-workspace-zones.png",
+      "asset_id": "6c102e88-152d-42e8-8db1-00e0038da24c",
+      "prompt_id": "ad2fd4bc-8b1b-4354-ae4b-b9492a8174da",
+      "source_filename": "ComfyUI_00252_.png",
+      "dimensions": "1536x864",
+      "bytes": 1457141,
+      "sha256": "1373d9ab357f5c592d55e6a6459719745aff401389ba97eca171ee914fd16504",
+      "visual_qa": "distinct physical work zones; black/off screens"
+    },
+    {
+      "file": "public/images/freelancer-browser-containers-saas-workspace-mix-up-prevention/02-upload-pause.png",
+      "asset_id": "eb51163d-4c51-4463-8881-97352662d474",
+      "prompt_id": "73bf20b3-23b5-471e-9b28-4d69f76ea09e",
+      "source_filename": "ComfyUI_00260_.png",
+      "dimensions": "1536x864",
+      "bytes": 1577883,
+      "sha256": "ce509e49abdcbfcdd984a36493c854059d3a2354b2b5900e6404b601d2ca3ec5",
+      "visual_qa": "text-free folder pause scene"
+    },
+    {
+      "file": "public/images/freelancer-browser-containers-saas-workspace-mix-up-prevention/03-weekly-audit.png",
+      "asset_id": "e56f53f8-25ca-4235-9759-a147f71df34a",
+      "prompt_id": "bc7a681d-3040-49e7-9c34-2d05c8da9ec0",
+      "source_filename": "ComfyUI_00258_.png",
+      "dimensions": "1536x864",
+      "bytes": 1567198,
+      "sha256": "07f535754979671c5dc0220d3b9c92300a62dcda2b379548ab6b27ad74d50a28",
+      "visual_qa": "isolated closed boxes, no text"
+    },
+    {
+      "file": "public/images/freelancer-browser-containers-saas-workspace-mix-up-prevention/04-incident-containment.png",
+      "asset_id": "becb343f-2ad9-46e3-944f-24a716a93171",
+      "prompt_id": "43c905ef-de6a-498e-9138-fd670055206b",
+      "source_filename": "ComfyUI_00262_.png",
+      "dimensions": "1536x864",
+      "bytes": 1136107,
+      "sha256": "b9ecd1a7f392db013049b08303fb87748e6207184775ec5c68dc03d46ae7d040",
+      "visual_qa": "closed lockers, no readable marks"
+    }
+  ],
+  "rejected": [
+    {
+      "asset_id": "57ace395-1a8f-4aff-96af-ce6cea12abba",
+      "prompt_id": "aa8bf929-e181-4262-8ad6-9afd146866fd",
+      "reason": "visible open screens/UI"
+    },
+    {
+      "asset_id": "491cff10-768f-45aa-b703-fcac5aa79f19",
+      "prompt_id": "80efe6fb-c037-45b9-acc4-d0907285c321",
+      "reason": "open screen and document-like surfaces"
+    },
+    {
+      "asset_id": "a2ccba2a-71f5-4a86-bdf7-0413fabcb1e9",
+      "prompt_id": "4f533022-0dfb-4c79-a946-d55f86388753",
+      "reason": "brand-like marks and cluttered electronics"
+    },
+    {
+      "asset_id": "b1a90e57-c73f-4214-a2e2-db8398dc8271",
+      "prompt_id": "ebaacc4c-1daf-4a4e-a6ac-ee761f8e6ae2",
+      "reason": "visible logos and screen UI"
+    },
+    {
+      "asset_id": "493a8051-8856-467c-b72c-2f235d36f447",
+      "prompt_id": "c5e0861f-e984-4551-b11d-996392a24c81",
+      "reason": "topic mismatch and book-like objects"
+    }
+  ],
+  "contact_sheet": "reports/freelancer-browser-containers-contact-sheet.jpg"
+}

@@ -28,7 +28,8 @@ export const REVIEW_POSTS = [
   "remote-work-ransomware-first-hour-response-plan",
   "remote-job-scam-verification-offer-interview-checklist",
   "home-office-paper-printer-data-retention-shredding-cleanup",
-  "remote-work-invoice-payment-change-bec-verification-workflow"
+  "remote-work-invoice-payment-change-bec-verification-workflow",
+  "freelancer-browser-containers-saas-workspace-mix-up-prevention"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
