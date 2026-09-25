@@ -1,0 +1,28 @@
+{
+  "site": "remoteworkgeek",
+  "post": "desk-lighting-lux-research",
+  "generated_at": "2026-09-25T19:15:00+09:00",
+  "generator": "GTI15 ComfyUI natural candidate workflow",
+  "accepted": [
+    {
+      "filename": "desk-lighting-layered-task-lamps.png",
+      "source_file": "20260925_190546_krea_1291712711.png",
+      "bytes": 1588158,
+      "visual_qa": "PASS"
+    },
+    {
+      "filename": "desk-lighting-floor-lamp-daylight.png",
+      "source_file": "20260925_190624_realvis_1291712712.png",
+      "bytes": 1310000,
+      "visual_qa": "PASS"
+    },
+    {
+      "filename": "desk-lighting-cantilever-lamp.png",
+      "source_file": "20260925_190643_juggernaut_1291712713.png",
+      "bytes": 1196790,
+      "visual_qa": "PASS"
+    }
+  ],
+  "rejected_assets_not_copied": true,
+  "qa": "Final selected assets visually inspected; no fake text/UI/logos/people/anatomy or implausible object geometry accepted."
+}

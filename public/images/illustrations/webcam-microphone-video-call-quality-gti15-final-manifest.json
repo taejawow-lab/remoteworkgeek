@@ -1,0 +1,30 @@
+{
+  "site": "remoteworkgeek",
+  "post": "webcam-microphone-video-call-quality",
+  "generated_at": "2026-09-25T19:15:00+09:00",
+  "generator": "GTI15 ComfyUI natural candidate workflow",
+  "accepted": [
+    {
+      "filename": "video-call-blank-screen-webcam-mic.png",
+      "source_file": "20260925_190218_krea_1491268360.png",
+      "bytes": 1078046,
+      "visual_qa": "PASS",
+      "editorial_cleanup": "Localized feathered blur removed tiny synthetic product markings only; scene geometry unchanged."
+    },
+    {
+      "filename": "video-call-tripod-webcam-microphone.png",
+      "source_file": "20260925_191848_krea_3914338462.png",
+      "bytes": 1441257,
+      "visual_qa": "PASS replacement after final contact-sheet rejection"
+    },
+    {
+      "filename": "video-call-wired-microphone-laptop.png",
+      "source_file": "20260925_191410_juggernaut_3820474311.png",
+      "bytes": 1443149,
+      "visual_qa": "PASS",
+      "editorial_cleanup": "Localized feathered blur removed tiny synthetic product markings only; scene geometry unchanged."
+    }
+  ],
+  "rejected_assets_not_copied": true,
+  "qa": "Final selected assets visually inspected; no fake text/UI/logos/people/anatomy or implausible object geometry accepted."
+}

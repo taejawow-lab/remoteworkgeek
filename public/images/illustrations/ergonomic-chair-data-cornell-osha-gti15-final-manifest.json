@@ -1,0 +1,28 @@
+{
+  "site": "remoteworkgeek",
+  "post": "ergonomic-chair-data-cornell-osha",
+  "generated_at": "2026-09-25T19:15:00+09:00",
+  "generator": "GTI15 ComfyUI natural candidate workflow",
+  "accepted": [
+    {
+      "filename": "ergonomic-chair-mesh-desk-fit.png",
+      "source_file": "20260925_185948_krea_2865731796.png",
+      "bytes": 1419165,
+      "visual_qa": "PASS"
+    },
+    {
+      "filename": "ergonomic-chair-neutral-office.png",
+      "source_file": "20260925_190025_realvis_2865731797.png",
+      "bytes": 1148905,
+      "visual_qa": "PASS"
+    },
+    {
+      "filename": "ergonomic-chair-adjustment-profile.png",
+      "source_file": "20260925_190931_krea_2160903586.png",
+      "bytes": 1349875,
+      "visual_qa": "PASS"
+    }
+  ],
+  "rejected_assets_not_copied": true,
+  "qa": "Final selected assets visually inspected; no fake text/UI/logos/people/anatomy or implausible object geometry accepted."
+}

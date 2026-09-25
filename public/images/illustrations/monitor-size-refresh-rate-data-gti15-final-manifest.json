@@ -1,0 +1,28 @@
+{
+  "site": "remoteworkgeek",
+  "post": "monitor-size-refresh-rate-data",
+  "generated_at": "2026-09-25T19:15:00+09:00",
+  "generator": "GTI15 ComfyUI natural candidate workflow",
+  "accepted": [
+    {
+      "filename": "monitor-dual-size-comparison.png",
+      "source_file": "20260925_190200_juggernaut_1169649191.png",
+      "bytes": 875318,
+      "visual_qa": "PASS"
+    },
+    {
+      "filename": "monitor-dual-desk-measurement.png",
+      "source_file": "20260925_190702_krea_3043430254.png",
+      "bytes": 1314921,
+      "visual_qa": "PASS"
+    },
+    {
+      "filename": "monitor-dual-rear-cable-layout.png",
+      "source_file": "20260925_191159_krea_1673885385.png",
+      "bytes": 1286478,
+      "visual_qa": "PASS"
+    }
+  ],
+  "rejected_assets_not_copied": true,
+  "qa": "Final selected assets visually inspected; no fake text/UI/logos/people/anatomy or implausible object geometry accepted."
+}
