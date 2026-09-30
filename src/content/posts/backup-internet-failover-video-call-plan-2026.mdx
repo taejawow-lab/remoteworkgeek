@@ -57,12 +57,18 @@ A backup internet plan fails when it is first tested during a client call. The p
 
 ## Decision table
 
-| Work pattern | Minimum backup | Extra control |
-|---|---|---|
-| Occasional internal calls | Tested phone hotspot, charger, audio dial-in | Prewritten Slack or email status line |
-| Client-facing video | Hotspot plus alternate meeting device | Calendar note with backup phone number and host handoff |
-| Live training or webinar | Second connection or nearby approved workspace | Co-host, local recording, and run-of-show notes |
-| Confidential work | Encrypted device, approved network, no public kiosk login | Confirm employer policy before using coworking Wi-Fi |
+<p>On narrow screens, scroll this table sideways to read all columns.</p>
+
+<div role="region" aria-label="Work pattern / Minimum backup / Extra control — scrollable table" tabindex="0" style="max-width:100%; overflow-x:auto; margin:1rem 0;">
+<table style="min-width:640px; width:100%; table-layout:auto; border-collapse:collapse;">
+<thead><tr><th scope="col" style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Work pattern</th><th scope="col" style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Minimum backup</th><th scope="col" style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Extra control</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Occasional internal calls</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Tested phone hotspot, charger, audio dial-in</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Prewritten Slack or email status line</td></tr>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Client-facing video</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Hotspot plus alternate meeting device</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Calendar note with backup phone number and host handoff</td></tr>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Live training or webinar</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Second connection or nearby approved workspace</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Co-host, local recording, and run-of-show notes</td></tr>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Confidential work</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Encrypted device, approved network, no public kiosk login</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Confirm employer policy before using coworking Wi-Fi</td></tr>
+</tbody></table>
+</div>
 
 ## Measure the real failure points
 
@@ -122,13 +128,19 @@ Run the drill on the device you actually use for work. Save your current network
 
 ## Separate connection failure from meeting failure
 
-| Observation during the drill | First safe check | Fallback if unresolved |
-|---|---|---|
-| Laptop cannot join the hotspot | Confirm the hotspot is enabled and the approved connection details are correct | Notify the host using the independent communication channel |
-| Internet works but the required VPN does not | Compare the error with the employer's support instructions | Stop confidential work and contact IT; do not bypass VPN policy |
-| Meeting joins but speech breaks up | Stop video and nonessential transfers on your own device | Use the meeting's approved audio alternative or request rescheduling |
-| Audio works but presenting fails | Ask the co-host to present the previously approved material | Continue verbally without moving client files to a personal account |
-| Backup loses power or becomes hot | Stop the drill and use the device manufacturer's safe charging guidance | Move the meeting role to the co-host rather than repeatedly reconnecting |
+<p>On narrow screens, scroll this table sideways to read all columns.</p>
+
+<div role="region" aria-label="Observation during the drill / First safe check / Fallback if unresolved — scrollable table" tabindex="0" style="max-width:100%; overflow-x:auto; margin:1rem 0;">
+<table style="min-width:640px; width:100%; table-layout:auto; border-collapse:collapse;">
+<thead><tr><th scope="col" style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Observation during the drill</th><th scope="col" style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">First safe check</th><th scope="col" style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Fallback if unresolved</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Laptop cannot join the hotspot</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Confirm the hotspot is enabled and the approved connection details are correct</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Notify the host using the independent communication channel</td></tr>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Internet works but the required VPN does not</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Compare the error with the employer&#x27;s support instructions</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Stop confidential work and contact IT; do not bypass VPN policy</td></tr>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Meeting joins but speech breaks up</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Stop video and nonessential transfers on your own device</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Use the meeting&#x27;s approved audio alternative or request rescheduling</td></tr>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Audio works but presenting fails</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Ask the co-host to present the previously approved material</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Continue verbally without moving client files to a personal account</td></tr>
+<tr><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Backup loses power or becomes hot</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Stop the drill and use the device manufacturer&#x27;s safe charging guidance</td><td style="padding:10px; text-align:left; vertical-align:top; word-break:normal; overflow-wrap:normal;">Move the meeting role to the co-host rather than repeatedly reconnecting</td></tr>
+</tbody></table>
+</div>
 
 Change one variable at a time and keep the original result. Moving the phone, changing the cable, turning off video, and switching meeting apps together makes the improvement impossible to explain. A useful comparison is the same short screen-sharing task before and after a single change. Record what did not work as clearly as what did. Do not publish credentials, screenshots of private calls, participant names, or client information in the test record.
 
